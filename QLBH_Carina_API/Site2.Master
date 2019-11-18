@@ -1,0 +1,230 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site2.master.cs" Inherits="QLBH_Carina_API.Site2" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!--favicon-->
+    <link rel="icon" href="assets/images/logo_carina_white.png" type="image/x-icon">
+    <title>Quản lý bán hàng Carina</title>
+    <!-- Bootstrap core CSS-->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- animate CSS-->
+    <link href="assets/css/animate.css" rel="stylesheet" type="text/css" />
+    <!-- Icons CSS-->
+    <link href="assets/css/icons.css" rel="stylesheet" type="text/css" />
+    <!-- Sidebar CSS-->
+    <link href="assets/css/sidebar-menu.css" rel="stylesheet" />
+    <!-- Custom Style-->
+    <link href="assets/css/app-style.css" rel="stylesheet" />
+    <!--Sweet Alerts -->
+    <link href="assets/css/sweet-alert.css" rel="stylesheet" />
+    <!--Front awsome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet" />
+    <!--Front Google -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700&display=swap&subset=vietnamese" rel="stylesheet">
+
+    <!-- Bootstrap core JavaScript-->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!--angular scripts-->
+    <script src="assets/js/angular-1.6.5/angular.min.js"></script>
+    <%--Validate form--%>
+    <script src="assets/plugins/jquery-validation/js/jquery.validate.min.js"></script>
+    <!--Sweet Alerts -->
+    <script src="assets/plugins/alerts-boxes/js/sweetalert.min.js"></script>
+    <script src="assets/plugins/alerts-boxes/js/sweet-alert-script.js"></script>
+    <!-- sidebar-menu js -->
+    <script src="assets/js/sidebar-menu.js"></script>
+    <!-- Custom scripts -->
+    <script src="assets/js/app-script.js"></script>
+    <script src="App_js/app-nv.js"></script>
+    <script src="assets/js/datepicker.min.js"></script>
+    <style type="text/css">
+        body {
+            font-family: 'Roboto Slab',serif !important
+        }
+
+        .default-datatable-truncate {
+            text-overflow: Ellipsis;
+            width: 135px;
+            overflow: hidden;
+            white-space: nowrap;
+            display: block
+        }
+
+        .form-control.form-control-rounded.read-only {
+            border: 0 solid #e5eaef;
+            background-color: rgba(255,255,255,.2);
+            color: #fff !important
+        }
+
+        .ui-datepicker-header.ui-widget-header.ui-helper-clearfix.ui-corner-all {
+            text-align: center;
+            background: #2bbbad;
+            width: 310px
+        }
+
+        table.ui-datepicker-calendar {
+            background: #2bbbad !important;
+            color: #fff;
+            width: 310px;
+            font-family: tahoma
+        }
+
+        a.ui-state-default {
+            color: #ffff;
+            display: block;
+            transition: .3s;
+            font-weight: 700
+        }
+
+        a.ui-state-default:hover {
+            color: #2bbbad;
+            background: #fff
+        }
+
+        span.ui-icon.ui-icon-circle-triangle-e {
+            float: right;
+            font-size: 20px;
+            padding: 5px 10px;
+            color: #ffffffc9;
+            font-family: sans-serif;
+            transition: .3s;
+            font-weight: 700
+        }
+
+            span.ui-icon.ui-icon-circle-triangle-e:hover {
+                color: #fff
+            }
+
+        span.ui-icon.ui-icon-circle-triangle-w {
+            float: left;
+            font-size: 20px;
+            padding: 5px 10px;
+            color: #ffffffc9;
+            font-family: sans-serif;
+            transition: .3s;
+            font-weight: 700
+        }
+
+        span.ui-icon.ui-icon-circle-triangle-w:hover {
+            color: #fff
+        }
+
+        .ui-datepicker-title {
+            padding: 15px 0;
+            text-align: center;
+            font-size: 25px;
+            color: #ffffffc9;
+            font-family: sans-serif
+        }
+        .modal_top {
+            position: absolute;
+            top: 7.5em
+        }
+
+        .dis {
+            display: none
+        }
+    </style>
+    <script>
+        $(function () {
+            $(".datepicker").datepicker({
+                dateFormat: 'dd/mm/yy'
+            });
+        });
+    </script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="bg-theme bg-theme1" data-ng-app="api">
+
+    <form id="form1" runat="server">
+        <div>
+            <%-- start loader --%>
+            <div id="pageloader-overlay" class="visible incoming">
+                <div class="loader-wrapper-outer">
+                    <div class="loader-wrapper-inner">
+                        <div class="loader"></div>
+                    </div>
+                </div>
+            </div>
+            <%-- end loader --%>
+            <div id="wrapper">
+                <%-- Phần include--%>
+                <!--#include file="File_inc/Sidebar-wrapper.inc.aspx"-->
+                <!--Start topbar header-->
+
+                <!--End topbar header-->
+
+                <!--#include file="File_inc/Back_top_footer.inc.aspx"-->
+                <%-- Phần include--%>
+                <div class="content-wrapper">
+                    <div class="container-fluid">
+                        <%--Các thành phần chung--%>
+                        <header class="topbar-nav">
+                            <nav class="navbar navbar-expand fixed-top">
+                                <ul class="navbar-nav mr-auto align-items-center">
+                                    <li class="nav-item">
+                                        <a class="nav-link toggle-menu" href="javascript:void();">
+                                            <i class="icon-menu menu-icon"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+
+
+                                <ul class="navbar-nav align-items-center right-nav-link">
+                                    <li class="m-3">Xin chào bạn
+                                          <asp:Label ID="lbNgDung" runat="server" Text="Label"></asp:Label></li>
+                                    <li class="nav-item">
+                                        <a class="nav-link dropdown-toggle dropdown-toggle-nocaret" data-toggle="dropdown" href="#">
+                                            <span class="user-profile">
+                                                <img src="assets/images/avatars/avatar-13.png" class="img-circle" alt="user avatar" /></span>
+                                        </a>
+                                        <ul class="dropdown-menu dropdown-menu-right">
+                                            <li class="dropdown-item user-details">
+                                                <a href="javaScript:void();">
+                                                    <div class="media">
+                                                        <div class="avatar">
+                                                            <img class="align-self-start mr-3" src="assets/images/avatars/avatar-13.png" alt="user avatar" />
+                                                        </div>
+                                                        <div class="media-body">
+                                                            <asp:Label ID="lbNgDung2" CssClass="mt-2 user-title" runat="server" Text="Label"></asp:Label>
+                                                            <br />
+                                                            <asp:Label ID="lbEmail" CssClass="user-subtitle" runat="server" Text="Label"></asp:Label>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="dropdown-divider"></li>
+                                            <li class="dropdown-item"><i class="icon-settings mr-2"></i>Cài Đặt</li>
+                                            <li class="dropdown-divider"></li>
+                                            <li class="dropdown-item">
+                                                <asp:LinkButton ID="Btnlogout" OnClick="Btnlogout_Click" runat="server"><i class="icon-power mr-2"></i>Đăng Xuất</asp:LinkButton>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </header>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                        <%--Các thành phần chung--%>
+                    </div>
+                    <%--container-fluid--%>
+                </div>
+                <%-- content-wrapper--%>
+            </div>   <%--End wrapper--%>  
+        </div>
+    </form>
+
+</body>
+</html>

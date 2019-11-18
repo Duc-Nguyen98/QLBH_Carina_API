@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DEC6AC2A-0372-4713-B478-6DB9999F9274}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BT_lon</RootNamespace>
+    <AssemblyName>BT_lon</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="LiveCharts">
+      <HintPath>..\packages\LiveCharts.0.9.7\lib\net45\LiveCharts.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts.WinForms">
+      <HintPath>..\packages\LiveCharts.WinForms.0.9.7.1\lib\net45\LiveCharts.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts.Wpf">
+      <HintPath>..\packages\LiveCharts.Wpf.0.9.7\lib\net45\LiveCharts.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="PagedList">
+      <HintPath>..\packages\PagedList.1.17.0.0\lib\net40\PagedList.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="HDSD_Hoa_Don.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HDSD_Hoa_Don.Designer.cs">
+      <DependentUpon>HDSD_Hoa_Don.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HDSD_Khach_Hang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HDSD_Khach_Hang.Designer.cs">
+      <DependentUpon>HDSD_Khach_Hang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HDSD_Nhan_Vien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HDSD_Nhan_Vien.Designer.cs">
+      <DependentUpon>HDSD_Nhan_Vien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HDSD_Nha_Cung_Cap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HDSD_Nha_Cung_Cap.Designer.cs">
+      <DependentUpon>HDSD_Nha_Cung_Cap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HDSD_San_Pham.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HDSD_San_Pham.Designer.cs">
+      <DependentUpon>HDSD_San_Pham.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Huong_Su_Dung.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Huong_Su_Dung.Designer.cs">
+      <DependentUpon>Huong_Su_Dung.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DungChung.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hoa_Don.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Hoa_Don.Designer.cs">
+      <DependentUpon>Hoa_Don.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Khach_Hang.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Khach_Hang.Designer.cs">
+      <DependentUpon>Khach_Hang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login_form.Designer.cs">
+      <DependentUpon>Login_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nhan_Vien.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Nhan_Vien.Designer.cs">
+      <DependentUpon>Nhan_Vien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nha_Cung_Cap.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Nha_Cung_Cap.Designer.cs">
+      <DependentUpon>Nha_Cung_Cap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Doi_MK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\Doi_MK.Designer.cs">
+      <DependentUpon>Doi_MK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="San_Pham.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="San_Pham.Designer.cs">
+      <DependentUpon>San_Pham.cs</DependentUpon>
+    </Compile>
+    <Compile Include="test.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="test.Designer.cs">
+      <DependentUpon>test.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cap_nhat_MK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cap_nhat_MK.Designer.cs">
+      <DependentUpon>Cap_nhat_MK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Them_Nha_Cung_Cap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Them_Nha_Cung_Cap.Designer.cs">
+      <DependentUpon>Them_Nha_Cung_Cap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Them_NV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Them_NV.Designer.cs">
+      <DependentUpon>Them_NV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Them_SP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Them_SP.Designer.cs">
+      <DependentUpon>Them_SP.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="HDSD_Hoa_Don.resx">
+      <DependentUpon>HDSD_Hoa_Don.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HDSD_Khach_Hang.resx">
+      <DependentUpon>HDSD_Khach_Hang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HDSD_Nhan_Vien.resx">
+      <DependentUpon>HDSD_Nhan_Vien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HDSD_Nha_Cung_Cap.resx">
+      <DependentUpon>HDSD_Nha_Cung_Cap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HDSD_San_Pham.resx">
+      <DependentUpon>HDSD_San_Pham.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Huong_Su_Dung.resx">
+      <DependentUpon>Huong_Su_Dung.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hoa_Don.resx">
+      <DependentUpon>Hoa_Don.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Khach_Hang.resx">
+      <DependentUpon>Khach_Hang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login_form.resx">
+      <DependentUpon>Login_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nhan_Vien.resx">
+      <DependentUpon>Nhan_Vien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nha_Cung_Cap.resx">
+      <DependentUpon>Nha_Cung_Cap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Doi_MK.resx">
+      <DependentUpon>Doi_MK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="San_Pham.resx">
+      <DependentUpon>San_Pham.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="test.resx">
+      <DependentUpon>test.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cap_nhat_MK.resx">
+      <DependentUpon>Cap_nhat_MK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Them_Nha_Cung_Cap.resx">
+      <DependentUpon>Them_Nha_Cung_Cap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Them_NV.resx">
+      <DependentUpon>Them_NV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Them_SP.resx">
+      <DependentUpon>Them_SP.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

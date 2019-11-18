@@ -1,0 +1,823 @@
+E:\QLBH_Carina_API\QLBH_Carina_API\obj\Debug\QLBH_Carina_API.csproj.CoreCompileInputs.cache
+E:\QLBH_Carina_API\QLBH_Carina_API\obj\Debug\QLBH_Carina_API.csprojAssemblyReference.cache
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\QLBH_Carina_API.dll.config
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\QLBH_Carina_API.dll
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\QLBH_Carina_API.pdb
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\csc.exe
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\csc.exe.config
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\csc.rsp
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\csi.exe
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\csi.exe.config
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\csi.rsp
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.Managed.Core.targets
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.AppContext.dll
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Collections.Immutable.dll
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Console.dll
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.IO.Compression.dll
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.IO.FileSystem.dll
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.IO.Pipes.dll
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Reflection.Metadata.dll
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Security.AccessControl.dll
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Security.Claims.dll
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Security.Principal.Windows.dll
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.ValueTuple.dll
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Xml.XmlDocument.dll
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Xml.XPath.dll
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\vbc.exe
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\vbc.exe.config
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\vbc.rsp
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\VBCSCompiler.exe
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\VBCSCompiler.exe.config
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\Antlr3.Runtime.dll
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\Microsoft.Web.Infrastructure.dll
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\Newtonsoft.Json.dll
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\System.Net.Http.Formatting.dll
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Helpers.dll
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Http.dll
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Http.WebHost.dll
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Mvc.dll
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Optimization.dll
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Razor.dll
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.WebPages.Deployment.dll
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.WebPages.dll
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.WebPages.Razor.dll
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\WebGrease.dll
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\Newtonsoft.Json.xml
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\System.Net.Http.Formatting.xml
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Helpers.xml
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Http.xml
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Http.WebHost.xml
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Mvc.xml
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Optimization.xml
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Razor.xml
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.WebPages.xml
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.WebPages.Deployment.xml
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.WebPages.Razor.xml
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\Antlr3.Runtime.pdb
+E:\QLBH_Carina_API\QLBH_Carina_API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\QLBH_Carina_API\QLBH_Carina_API\obj\Debug\QLBH_Carina_API.csproj.CopyComplete
+E:\QLBH_Carina_API\QLBH_Carina_API\obj\Debug\QLBH_Carina_API.dll
+E:\QLBH_Carina_API\QLBH_Carina_API\obj\Debug\QLBH_Carina_API.pdb
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\QLBH_Carina_API.dll.config
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\QLBH_Carina_API.dll
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\QLBH_Carina_API.pdb
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\csc.exe
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\csc.exe.config
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\csc.rsp
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\csi.exe
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\csi.exe.config
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\csi.rsp
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.AppContext.dll
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Console.dll
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.IO.Compression.dll
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.IO.Pipes.dll
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Security.Claims.dll
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.ValueTuple.dll
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Xml.XPath.dll
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\vbc.exe
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\vbc.exe.config
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\vbc.rsp
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\VBCSCompiler.exe
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\Antlr3.Runtime.dll
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\Newtonsoft.Json.dll
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\System.Net.Http.Formatting.dll
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Helpers.dll
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Http.dll
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Http.WebHost.dll
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Mvc.dll
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Optimization.dll
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Razor.dll
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.WebPages.Deployment.dll
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.WebPages.dll
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.WebPages.Razor.dll
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\WebGrease.dll
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\Newtonsoft.Json.xml
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\System.Net.Http.Formatting.xml
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Helpers.xml
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Http.xml
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Http.WebHost.xml
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Mvc.xml
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Optimization.xml
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Razor.xml
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.WebPages.xml
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.WebPages.Deployment.xml
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.WebPages.Razor.xml
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\Antlr3.Runtime.pdb
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\obj\Debug\QLBH_Carina_API.csprojAssemblyReference.cache
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\obj\Debug\QLBH_Carina_API.csproj.CoreCompileInputs.cache
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\obj\Debug\QLBH_Carina_API.csproj.CopyComplete
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\obj\Debug\QLBH_Carina_API.dll
+C:\Users\iaman\Desktop\QL2\QLBH_Carina_API\QLBH_Carina_API\obj\Debug\QLBH_Carina_API.pdb
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\QLBH_Carina_API.dll.config
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\QLBH_Carina_API.dll
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\QLBH_Carina_API.pdb
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\csc.exe
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\csc.exe.config
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\csc.rsp
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\csi.exe
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\csi.exe.config
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\csi.rsp
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.AppContext.dll
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Console.dll
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.IO.Compression.dll
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.IO.Pipes.dll
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Security.Claims.dll
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.ValueTuple.dll
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Xml.XPath.dll
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\vbc.exe
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\vbc.exe.config
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\vbc.rsp
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\VBCSCompiler.exe
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\Antlr3.Runtime.dll
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\Newtonsoft.Json.dll
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\System.Net.Http.Formatting.dll
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Helpers.dll
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Http.dll
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Http.WebHost.dll
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Mvc.dll
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Optimization.dll
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Razor.dll
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.WebPages.Deployment.dll
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.WebPages.dll
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.WebPages.Razor.dll
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\WebGrease.dll
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\Newtonsoft.Json.xml
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\System.Net.Http.Formatting.xml
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Helpers.xml
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Http.xml
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Http.WebHost.xml
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Mvc.xml
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Optimization.xml
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Razor.xml
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.WebPages.xml
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.WebPages.Deployment.xml
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.WebPages.Razor.xml
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\Antlr3.Runtime.pdb
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\obj\Debug\QLBH_Carina_API.csprojAssemblyReference.cache
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\obj\Debug\QLBH_Carina_API.csproj.CoreCompileInputs.cache
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\obj\Debug\QLBH_Carina_API.csproj.CopyComplete
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\obj\Debug\QLBH_Carina_API.dll
+C:\Users\iaman\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\obj\Debug\QLBH_Carina_API.pdb
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\QLBH_Carina_API.dll.config
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\QLBH_Carina_API.dll
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\QLBH_Carina_API.pdb
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\csc.exe
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\csc.exe.config
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\csc.rsp
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\csi.exe
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\csi.exe.config
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\csi.rsp
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.AppContext.dll
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Console.dll
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.IO.Compression.dll
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.IO.Pipes.dll
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Security.Claims.dll
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.ValueTuple.dll
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\vbc.exe
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\vbc.exe.config
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\vbc.rsp
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\VBCSCompiler.exe
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\Antlr3.Runtime.dll
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\Newtonsoft.Json.dll
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\System.Net.Http.Formatting.dll
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Helpers.dll
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Http.dll
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Http.WebHost.dll
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Mvc.dll
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Optimization.dll
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Razor.dll
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.WebPages.dll
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.WebPages.Razor.dll
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\WebGrease.dll
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\Newtonsoft.Json.xml
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\System.Net.Http.Formatting.xml
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Helpers.xml
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Http.xml
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Http.WebHost.xml
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Mvc.xml
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Optimization.xml
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Razor.xml
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.WebPages.xml
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.WebPages.Razor.xml
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\Antlr3.Runtime.pdb
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\obj\Debug\QLBH_Carina_API.csprojAssemblyReference.cache
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\obj\Debug\QLBH_Carina_API.csproj.CoreCompileInputs.cache
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\obj\Debug\QLBH_Carina_API.csproj.CopyComplete
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\obj\Debug\QLBH_Carina_API.dll
+C:\Users\ducni\OneDrive\Desktop\test_carina\QLBH_Carina_API\QLBH_Carina_API\obj\Debug\QLBH_Carina_API.pdb
+<<<<<<< HEAD
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\QLBH_Carina_API.dll.config
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\QLBH_Carina_API.dll
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\QLBH_Carina_API.pdb
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\roslyn\csc.exe
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\roslyn\csc.exe.config
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\roslyn\csc.rsp
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\roslyn\csi.exe
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\roslyn\csi.exe.config
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\roslyn\csi.rsp
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\roslyn\System.AppContext.dll
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\roslyn\System.Console.dll
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\roslyn\System.IO.Compression.dll
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\roslyn\System.IO.Pipes.dll
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\roslyn\System.Security.Claims.dll
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\roslyn\System.ValueTuple.dll
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\roslyn\vbc.exe
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\roslyn\vbc.exe.config
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\roslyn\vbc.rsp
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\roslyn\VBCSCompiler.exe
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\Antlr3.Runtime.dll
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\Newtonsoft.Json.dll
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\System.Net.Http.Formatting.dll
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\System.Web.Helpers.dll
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\System.Web.Http.dll
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\System.Web.Http.WebHost.dll
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\System.Web.Mvc.dll
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\System.Web.Optimization.dll
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\System.Web.Razor.dll
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\System.Web.WebPages.dll
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\System.Web.WebPages.Razor.dll
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\WebGrease.dll
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\Newtonsoft.Json.xml
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\System.Net.Http.Formatting.xml
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\System.Web.Helpers.xml
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\System.Web.Http.xml
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\System.Web.Http.WebHost.xml
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\System.Web.Mvc.xml
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\System.Web.Optimization.xml
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\System.Web.Razor.xml
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\System.Web.WebPages.xml
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\System.Web.WebPages.Razor.xml
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\Antlr3.Runtime.pdb
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\obj\Debug\QLBH_Carina_API.csprojAssemblyReference.cache
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\obj\Debug\QLBH_Carina_API.csproj.CoreCompileInputs.cache
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\obj\Debug\QLBH_Carina_API.csproj.CopyComplete
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\obj\Debug\QLBH_Carina_API.dll
+C:\Users\ducni\OneDrive\Desktop\sss\QLBH_Carina_API\obj\Debug\QLBH_Carina_API.pdb
+=======
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\QLBH_Carina_API.dll.config
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\QLBH_Carina_API.dll
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\QLBH_Carina_API.pdb
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\csc.exe
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\csc.exe.config
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\csc.rsp
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\csi.exe
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\csi.exe.config
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\csi.rsp
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.AppContext.dll
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Console.dll
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.IO.Compression.dll
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.IO.Pipes.dll
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Security.Claims.dll
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.ValueTuple.dll
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Xml.XPath.dll
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\vbc.exe
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\vbc.exe.config
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\vbc.rsp
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\VBCSCompiler.exe
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\Antlr3.Runtime.dll
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\Newtonsoft.Json.dll
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\System.Net.Http.Formatting.dll
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Helpers.dll
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Http.dll
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Http.WebHost.dll
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Mvc.dll
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Optimization.dll
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Razor.dll
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.WebPages.Deployment.dll
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.WebPages.dll
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.WebPages.Razor.dll
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\WebGrease.dll
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\Newtonsoft.Json.xml
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\System.Net.Http.Formatting.xml
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Helpers.xml
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Http.xml
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Http.WebHost.xml
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Mvc.xml
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Optimization.xml
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Razor.xml
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.WebPages.xml
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.WebPages.Deployment.xml
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.WebPages.Razor.xml
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\Antlr3.Runtime.pdb
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\obj\Debug\QLBH_Carina_API.csprojAssemblyReference.cache
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\obj\Debug\QLBH_Carina_API.csproj.CoreCompileInputs.cache
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\obj\Debug\QLBH_Carina_API.csproj.CopyComplete
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\obj\Debug\QLBH_Carina_API.dll
+C:\Users\iaman\Desktop\clone-git_new\QLBH_Carina_API\QLBH_Carina_API\obj\Debug\QLBH_Carina_API.pdb
+>>>>>>> e82b649e578698856589c8a95b6ffb1c4348b762
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\QLBH_Carina_API.dll.config
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\QLBH_Carina_API.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\QLBH_Carina_API.pdb
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\csc.exe
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\csc.exe.config
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\csc.rsp
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\csi.exe
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\csi.exe.config
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\csi.rsp
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.AppContext.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Console.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.IO.Compression.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.IO.Pipes.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Security.Claims.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.ValueTuple.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\vbc.exe
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\vbc.exe.config
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\vbc.rsp
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\VBCSCompiler.exe
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\Antlr3.Runtime.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\Newtonsoft.Json.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\System.Net.Http.Formatting.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Helpers.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Http.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Http.WebHost.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Mvc.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Optimization.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Razor.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.WebPages.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.WebPages.Razor.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\WebGrease.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\Newtonsoft.Json.xml
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\System.Net.Http.Formatting.xml
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Helpers.xml
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Http.xml
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Http.WebHost.xml
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Mvc.xml
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Optimization.xml
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Razor.xml
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.WebPages.xml
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.WebPages.Razor.xml
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\Antlr3.Runtime.pdb
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\obj\Debug\QLBH_Carina_API.csprojAssemblyReference.cache
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\obj\Debug\QLBH_Carina_API.csproj.CoreCompileInputs.cache
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\obj\Debug\QLBH_Carina_API.csproj.CopyComplete
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\obj\Debug\QLBH_Carina_API.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git\QLBH_Carina_API\QLBH_Carina_API\obj\Debug\QLBH_Carina_API.pdb
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\QLBH_Carina_API.dll.config
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\QLBH_Carina_API.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\QLBH_Carina_API.pdb
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\csc.exe
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\csc.exe.config
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\csc.rsp
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\csi.exe
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\csi.exe.config
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\csi.rsp
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.AppContext.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Console.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.IO.Compression.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.IO.Pipes.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Security.Claims.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.ValueTuple.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\vbc.exe
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\vbc.exe.config
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\vbc.rsp
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\VBCSCompiler.exe
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\Antlr3.Runtime.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\Newtonsoft.Json.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\System.Net.Http.Formatting.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Helpers.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Http.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Http.WebHost.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Mvc.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Optimization.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Razor.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.WebPages.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.WebPages.Razor.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\WebGrease.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\Newtonsoft.Json.xml
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\System.Net.Http.Formatting.xml
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Helpers.xml
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Http.xml
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Http.WebHost.xml
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Mvc.xml
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Optimization.xml
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Razor.xml
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.WebPages.xml
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.WebPages.Razor.xml
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\Antlr3.Runtime.pdb
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\obj\Debug\QLBH_Carina_API.csprojAssemblyReference.cache
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\obj\Debug\QLBH_Carina_API.csproj.CoreCompileInputs.cache
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\obj\Debug\QLBH_Carina_API.csproj.CopyComplete
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\obj\Debug\QLBH_Carina_API.dll
+C:\Users\ducni\OneDrive\Desktop\backup-git - Copy\QLBH_Carina_API\QLBH_Carina_API\obj\Debug\QLBH_Carina_API.pdb
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\QLBH_Carina_API.dll.config
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\QLBH_Carina_API.dll
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\QLBH_Carina_API.pdb
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\csc.exe
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\csc.exe.config
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\csc.rsp
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\csi.exe
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\csi.exe.config
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\csi.rsp
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.AppContext.dll
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Console.dll
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.IO.Compression.dll
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.IO.Pipes.dll
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Security.Claims.dll
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.ValueTuple.dll
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\vbc.exe
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\vbc.exe.config
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\vbc.rsp
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\VBCSCompiler.exe
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\Antlr3.Runtime.dll
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\Newtonsoft.Json.dll
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\System.Net.Http.Formatting.dll
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Helpers.dll
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Http.dll
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Http.WebHost.dll
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Mvc.dll
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Optimization.dll
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Razor.dll
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.WebPages.dll
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.WebPages.Razor.dll
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\WebGrease.dll
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\Newtonsoft.Json.xml
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\System.Net.Http.Formatting.xml
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Helpers.xml
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Http.xml
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Http.WebHost.xml
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Mvc.xml
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Optimization.xml
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Razor.xml
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.WebPages.xml
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.WebPages.Razor.xml
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\Antlr3.Runtime.pdb
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\obj\Debug\QLBH_Carina_API.csprojAssemblyReference.cache
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\obj\Debug\QLBH_Carina_API.csproj.CoreCompileInputs.cache
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\obj\Debug\QLBH_Carina_API.csproj.CopyComplete
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\obj\Debug\QLBH_Carina_API.dll
+C:\Users\ducni\OneDrive\Desktop\new_test\QLBH_Carina_API\QLBH_Carina_API\obj\Debug\QLBH_Carina_API.pdb
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\QLBH_Carina_API.dll.config
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\QLBH_Carina_API.dll
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\QLBH_Carina_API.pdb
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\csc.exe
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\csc.exe.config
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\csc.rsp
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\csi.exe
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\csi.exe.config
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\csi.rsp
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.AppContext.dll
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Console.dll
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.IO.Compression.dll
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.IO.Pipes.dll
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Security.Claims.dll
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.ValueTuple.dll
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\vbc.exe
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\vbc.exe.config
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\vbc.rsp
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\VBCSCompiler.exe
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\Antlr3.Runtime.dll
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\Newtonsoft.Json.dll
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\System.Net.Http.Formatting.dll
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Helpers.dll
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Http.dll
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Http.WebHost.dll
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Mvc.dll
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Optimization.dll
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Razor.dll
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.WebPages.dll
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.WebPages.Razor.dll
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\WebGrease.dll
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\Newtonsoft.Json.xml
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\System.Net.Http.Formatting.xml
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Helpers.xml
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Http.xml
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Http.WebHost.xml
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Mvc.xml
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Optimization.xml
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.Razor.xml
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.WebPages.xml
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\System.Web.WebPages.Razor.xml
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\Antlr3.Runtime.pdb
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\obj\Debug\QLBH_Carina_API.csprojAssemblyReference.cache
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\obj\Debug\QLBH_Carina_API.csproj.CoreCompileInputs.cache
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\obj\Debug\QLBH_Carina_API.csproj.CopyComplete
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\obj\Debug\QLBH_Carina_API.dll
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\QLBH_Carina_API\obj\Debug\QLBH_Carina_API.pdb

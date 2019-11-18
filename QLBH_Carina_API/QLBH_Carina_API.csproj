@@ -1,0 +1,1849 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7B679D1F-08E8-4A9D-AB08-96885D2D0A64}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>QLBH_Carina_API</RootNamespace>
+    <AssemblyName>QLBH_Carina_API</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44360</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.7\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.7\lib\net45\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.7\lib\net45\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.7\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.7\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.6.0\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\Antlr.3.5.0.2\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Areas\HelpPage\ApiDescriptionExtensions.cs" />
+    <Compile Include="Areas\HelpPage\App_Start\HelpPageConfig.cs" />
+    <Compile Include="Areas\HelpPage\Controllers\HelpController.cs" />
+    <Compile Include="Areas\HelpPage\HelpPageAreaRegistration.cs" />
+    <Compile Include="Areas\HelpPage\HelpPageConfigurationExtensions.cs" />
+    <Compile Include="Areas\HelpPage\ModelDescriptions\CollectionModelDescription.cs" />
+    <Compile Include="Areas\HelpPage\ModelDescriptions\ComplexTypeModelDescription.cs" />
+    <Compile Include="Areas\HelpPage\ModelDescriptions\DictionaryModelDescription.cs" />
+    <Compile Include="Areas\HelpPage\ModelDescriptions\EnumTypeModelDescription.cs" />
+    <Compile Include="Areas\HelpPage\ModelDescriptions\EnumValueDescription.cs" />
+    <Compile Include="Areas\HelpPage\ModelDescriptions\IModelDocumentationProvider.cs" />
+    <Compile Include="Areas\HelpPage\ModelDescriptions\KeyValuePairModelDescription.cs" />
+    <Compile Include="Areas\HelpPage\ModelDescriptions\ModelDescription.cs" />
+    <Compile Include="Areas\HelpPage\ModelDescriptions\ModelDescriptionGenerator.cs" />
+    <Compile Include="Areas\HelpPage\ModelDescriptions\ModelNameAttribute.cs" />
+    <Compile Include="Areas\HelpPage\ModelDescriptions\ModelNameHelper.cs" />
+    <Compile Include="Areas\HelpPage\ModelDescriptions\ParameterAnnotation.cs" />
+    <Compile Include="Areas\HelpPage\ModelDescriptions\ParameterDescription.cs" />
+    <Compile Include="Areas\HelpPage\ModelDescriptions\SimpleTypeModelDescription.cs" />
+    <Compile Include="Areas\HelpPage\Models\HelpPageApiModel.cs" />
+    <Compile Include="Areas\HelpPage\SampleGeneration\HelpPageSampleGenerator.cs" />
+    <Compile Include="Areas\HelpPage\SampleGeneration\HelpPageSampleKey.cs" />
+    <Compile Include="Areas\HelpPage\SampleGeneration\ImageSample.cs" />
+    <Compile Include="Areas\HelpPage\SampleGeneration\InvalidSample.cs" />
+    <Compile Include="Areas\HelpPage\SampleGeneration\ObjectGenerator.cs" />
+    <Compile Include="Areas\HelpPage\SampleGeneration\SampleDirection.cs" />
+    <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
+    <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
+    <Compile Include="Controllers\HoaDon_ChiTietController.cs" />
+    <Compile Include="Controllers\KhachHangController.cs" />
+    <Compile Include="Controllers\ThongKeController.cs" />
+    <Compile Include="Data_Provider.cs" />
+    <Compile Include="File_inc\Back_top_footer.inc.aspx.cs">
+      <DependentUpon>Back_top_footer.inc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="File_inc\Back_top_footer.inc.aspx.designer.cs">
+      <DependentUpon>Back_top_footer.inc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="File_inc\loader.inc.aspx.cs">
+      <DependentUpon>loader.inc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="File_inc\loader.inc.aspx.designer.cs">
+      <DependentUpon>loader.inc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="File_inc\Sidebar-wrapper.inc.aspx.cs">
+      <DependentUpon>Sidebar-wrapper.inc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="File_inc\Sidebar-wrapper.inc.aspx.designer.cs">
+      <DependentUpon>Sidebar-wrapper.inc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="home2.aspx.cs">
+      <DependentUpon>home2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="home2.aspx.designer.cs">
+      <DependentUpon>home2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="KhachHang2.aspx.cs">
+      <DependentUpon>KhachHang2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="KhachHang2.aspx.designer.cs">
+      <DependentUpon>KhachHang2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Site2.Master.cs">
+      <DependentUpon>Site2.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site2.Master.designer.cs">
+      <DependentUpon>Site2.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Table_hoa_don2.aspx.cs">
+      <DependentUpon>Table_hoa_don2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Table_hoa_don2.aspx.designer.cs">
+      <DependentUpon>Table_hoa_don2.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_js\AJAXGET.js" />
+    <Content Include="App_js\AJAXPOST.js" />
+    <Content Include="App_js\app-nv.js" />
+    <Content Include="App_js\datatableDirective.js" />
+    <Content Include="App_js\Hoa_don.js" />
+    <Content Include="App_js\Khach_hang.js" />
+    <Content Include="App_js\Nhan_vien.js" />
+    <Content Include="App_js\Thong_ke.js" />
+    <Content Include="Areas\HelpPage\HelpPage.css" />
+    <Content Include="assets\css\animate.css" />
+    <Content Include="assets\css\app-style.css" />
+    <Content Include="assets\css\bootstrap.min.css" />
+    <Content Include="assets\css\font-awesome.css" />
+    <Content Include="assets\css\icons.css" />
+    <Content Include="assets\css\sidebar-menu.css" />
+    <Content Include="assets\css\sweet-alert.css" />
+    <Content Include="assets\flags\1x1\ad.svg" />
+    <Content Include="assets\flags\1x1\ae.svg" />
+    <Content Include="assets\flags\1x1\af.svg" />
+    <Content Include="assets\flags\1x1\ag.svg" />
+    <Content Include="assets\flags\1x1\ai.svg" />
+    <Content Include="assets\flags\1x1\al.svg" />
+    <Content Include="assets\flags\1x1\am.svg" />
+    <Content Include="assets\flags\1x1\ao.svg" />
+    <Content Include="assets\flags\1x1\aq.svg" />
+    <Content Include="assets\flags\1x1\ar.svg" />
+    <Content Include="assets\flags\1x1\as.svg" />
+    <Content Include="assets\flags\1x1\at.svg" />
+    <Content Include="assets\flags\1x1\au.svg" />
+    <Content Include="assets\flags\1x1\aw.svg" />
+    <Content Include="assets\flags\1x1\ax.svg" />
+    <Content Include="assets\flags\1x1\az.svg" />
+    <Content Include="assets\flags\1x1\ba.svg" />
+    <Content Include="assets\flags\1x1\bb.svg" />
+    <Content Include="assets\flags\1x1\bd.svg" />
+    <Content Include="assets\flags\1x1\be.svg" />
+    <Content Include="assets\flags\1x1\bf.svg" />
+    <Content Include="assets\flags\1x1\bg.svg" />
+    <Content Include="assets\flags\1x1\bh.svg" />
+    <Content Include="assets\flags\1x1\bi.svg" />
+    <Content Include="assets\flags\1x1\bj.svg" />
+    <Content Include="assets\flags\1x1\bl.svg" />
+    <Content Include="assets\flags\1x1\bm.svg" />
+    <Content Include="assets\flags\1x1\bn.svg" />
+    <Content Include="assets\flags\1x1\bo.svg" />
+    <Content Include="assets\flags\1x1\bq.svg" />
+    <Content Include="assets\flags\1x1\br.svg" />
+    <Content Include="assets\flags\1x1\bs.svg" />
+    <Content Include="assets\flags\1x1\bt.svg" />
+    <Content Include="assets\flags\1x1\bv.svg" />
+    <Content Include="assets\flags\1x1\bw.svg" />
+    <Content Include="assets\flags\1x1\by.svg" />
+    <Content Include="assets\flags\1x1\bz.svg" />
+    <Content Include="assets\flags\1x1\ca.svg" />
+    <Content Include="assets\flags\1x1\cc.svg" />
+    <Content Include="assets\flags\1x1\cd.svg" />
+    <Content Include="assets\flags\1x1\cf.svg" />
+    <Content Include="assets\flags\1x1\cg.svg" />
+    <Content Include="assets\flags\1x1\ch.svg" />
+    <Content Include="assets\flags\1x1\ci.svg" />
+    <Content Include="assets\flags\1x1\ck.svg" />
+    <Content Include="assets\flags\1x1\cl.svg" />
+    <Content Include="assets\flags\1x1\cm.svg" />
+    <Content Include="assets\flags\1x1\cn.svg" />
+    <Content Include="assets\flags\1x1\co.svg" />
+    <Content Include="assets\flags\1x1\cr.svg" />
+    <Content Include="assets\flags\1x1\cu.svg" />
+    <Content Include="assets\flags\1x1\cv.svg" />
+    <Content Include="assets\flags\1x1\cw.svg" />
+    <Content Include="assets\flags\1x1\cx.svg" />
+    <Content Include="assets\flags\1x1\cy.svg" />
+    <Content Include="assets\flags\1x1\cz.svg" />
+    <Content Include="assets\flags\1x1\de.svg" />
+    <Content Include="assets\flags\1x1\dj.svg" />
+    <Content Include="assets\flags\1x1\dk.svg" />
+    <Content Include="assets\flags\1x1\dm.svg" />
+    <Content Include="assets\flags\1x1\do.svg" />
+    <Content Include="assets\flags\1x1\dz.svg" />
+    <Content Include="assets\flags\1x1\ec.svg" />
+    <Content Include="assets\flags\1x1\ee.svg" />
+    <Content Include="assets\flags\1x1\eg.svg" />
+    <Content Include="assets\flags\1x1\eh.svg" />
+    <Content Include="assets\flags\1x1\er.svg" />
+    <Content Include="assets\flags\1x1\es-ct.svg" />
+    <Content Include="assets\flags\1x1\es.svg" />
+    <Content Include="assets\flags\1x1\et.svg" />
+    <Content Include="assets\flags\1x1\eu.svg" />
+    <Content Include="assets\flags\1x1\fi.svg" />
+    <Content Include="assets\flags\1x1\fj.svg" />
+    <Content Include="assets\flags\1x1\fk.svg" />
+    <Content Include="assets\flags\1x1\fm.svg" />
+    <Content Include="assets\flags\1x1\fo.svg" />
+    <Content Include="assets\flags\1x1\fr.svg" />
+    <Content Include="assets\flags\1x1\ga.svg" />
+    <Content Include="assets\flags\1x1\gb-eng.svg" />
+    <Content Include="assets\flags\1x1\gb-nir.svg" />
+    <Content Include="assets\flags\1x1\gb-sct.svg" />
+    <Content Include="assets\flags\1x1\gb-wls.svg" />
+    <Content Include="assets\flags\1x1\gb.svg" />
+    <Content Include="assets\flags\1x1\gd.svg" />
+    <Content Include="assets\flags\1x1\ge.svg" />
+    <Content Include="assets\flags\1x1\gf.svg" />
+    <Content Include="assets\flags\1x1\gg.svg" />
+    <Content Include="assets\flags\1x1\gh.svg" />
+    <Content Include="assets\flags\1x1\gi.svg" />
+    <Content Include="assets\flags\1x1\gl.svg" />
+    <Content Include="assets\flags\1x1\gm.svg" />
+    <Content Include="assets\flags\1x1\gn.svg" />
+    <Content Include="assets\flags\1x1\gp.svg" />
+    <Content Include="assets\flags\1x1\gq.svg" />
+    <Content Include="assets\flags\1x1\gr.svg" />
+    <Content Include="assets\flags\1x1\gs.svg" />
+    <Content Include="assets\flags\1x1\gt.svg" />
+    <Content Include="assets\flags\1x1\gu.svg" />
+    <Content Include="assets\flags\1x1\gw.svg" />
+    <Content Include="assets\flags\1x1\gy.svg" />
+    <Content Include="assets\flags\1x1\hk.svg" />
+    <Content Include="assets\flags\1x1\hm.svg" />
+    <Content Include="assets\flags\1x1\hn.svg" />
+    <Content Include="assets\flags\1x1\hr.svg" />
+    <Content Include="assets\flags\1x1\ht.svg" />
+    <Content Include="assets\flags\1x1\hu.svg" />
+    <Content Include="assets\flags\1x1\id.svg" />
+    <Content Include="assets\flags\1x1\ie.svg" />
+    <Content Include="assets\flags\1x1\il.svg" />
+    <Content Include="assets\flags\1x1\im.svg" />
+    <Content Include="assets\flags\1x1\in.svg" />
+    <Content Include="assets\flags\1x1\io.svg" />
+    <Content Include="assets\flags\1x1\iq.svg" />
+    <Content Include="assets\flags\1x1\ir.svg" />
+    <Content Include="assets\flags\1x1\is.svg" />
+    <Content Include="assets\flags\1x1\it.svg" />
+    <Content Include="assets\flags\1x1\je.svg" />
+    <Content Include="assets\flags\1x1\jm.svg" />
+    <Content Include="assets\flags\1x1\jo.svg" />
+    <Content Include="assets\flags\1x1\jp.svg" />
+    <Content Include="assets\flags\1x1\ke.svg" />
+    <Content Include="assets\flags\1x1\kg.svg" />
+    <Content Include="assets\flags\1x1\kh.svg" />
+    <Content Include="assets\flags\1x1\ki.svg" />
+    <Content Include="assets\flags\1x1\km.svg" />
+    <Content Include="assets\flags\1x1\kn.svg" />
+    <Content Include="assets\flags\1x1\kp.svg" />
+    <Content Include="assets\flags\1x1\kr.svg" />
+    <Content Include="assets\flags\1x1\kw.svg" />
+    <Content Include="assets\flags\1x1\ky.svg" />
+    <Content Include="assets\flags\1x1\kz.svg" />
+    <Content Include="assets\flags\1x1\la.svg" />
+    <Content Include="assets\flags\1x1\lb.svg" />
+    <Content Include="assets\flags\1x1\lc.svg" />
+    <Content Include="assets\flags\1x1\li.svg" />
+    <Content Include="assets\flags\1x1\lk.svg" />
+    <Content Include="assets\flags\1x1\lr.svg" />
+    <Content Include="assets\flags\1x1\ls.svg" />
+    <Content Include="assets\flags\1x1\lt.svg" />
+    <Content Include="assets\flags\1x1\lu.svg" />
+    <Content Include="assets\flags\1x1\lv.svg" />
+    <Content Include="assets\flags\1x1\ly.svg" />
+    <Content Include="assets\flags\1x1\ma.svg" />
+    <Content Include="assets\flags\1x1\mc.svg" />
+    <Content Include="assets\flags\1x1\md.svg" />
+    <Content Include="assets\flags\1x1\me.svg" />
+    <Content Include="assets\flags\1x1\mf.svg" />
+    <Content Include="assets\flags\1x1\mg.svg" />
+    <Content Include="assets\flags\1x1\mh.svg" />
+    <Content Include="assets\flags\1x1\mk.svg" />
+    <Content Include="assets\flags\1x1\ml.svg" />
+    <Content Include="assets\flags\1x1\mm.svg" />
+    <Content Include="assets\flags\1x1\mn.svg" />
+    <Content Include="assets\flags\1x1\mo.svg" />
+    <Content Include="assets\flags\1x1\mp.svg" />
+    <Content Include="assets\flags\1x1\mq.svg" />
+    <Content Include="assets\flags\1x1\mr.svg" />
+    <Content Include="assets\flags\1x1\ms.svg" />
+    <Content Include="assets\flags\1x1\mt.svg" />
+    <Content Include="assets\flags\1x1\mu.svg" />
+    <Content Include="assets\flags\1x1\mv.svg" />
+    <Content Include="assets\flags\1x1\mw.svg" />
+    <Content Include="assets\flags\1x1\mx.svg" />
+    <Content Include="assets\flags\1x1\my.svg" />
+    <Content Include="assets\flags\1x1\mz.svg" />
+    <Content Include="assets\flags\1x1\na.svg" />
+    <Content Include="assets\flags\1x1\nc.svg" />
+    <Content Include="assets\flags\1x1\ne.svg" />
+    <Content Include="assets\flags\1x1\nf.svg" />
+    <Content Include="assets\flags\1x1\ng.svg" />
+    <Content Include="assets\flags\1x1\ni.svg" />
+    <Content Include="assets\flags\1x1\nl.svg" />
+    <Content Include="assets\flags\1x1\no.svg" />
+    <Content Include="assets\flags\1x1\np.svg" />
+    <Content Include="assets\flags\1x1\nr.svg" />
+    <Content Include="assets\flags\1x1\nu.svg" />
+    <Content Include="assets\flags\1x1\nz.svg" />
+    <Content Include="assets\flags\1x1\om.svg" />
+    <Content Include="assets\flags\1x1\pa.svg" />
+    <Content Include="assets\flags\1x1\pe.svg" />
+    <Content Include="assets\flags\1x1\pf.svg" />
+    <Content Include="assets\flags\1x1\pg.svg" />
+    <Content Include="assets\flags\1x1\ph.svg" />
+    <Content Include="assets\flags\1x1\pk.svg" />
+    <Content Include="assets\flags\1x1\pl.svg" />
+    <Content Include="assets\flags\1x1\pm.svg" />
+    <Content Include="assets\flags\1x1\pn.svg" />
+    <Content Include="assets\flags\1x1\pr.svg" />
+    <Content Include="assets\flags\1x1\ps.svg" />
+    <Content Include="assets\flags\1x1\pt.svg" />
+    <Content Include="assets\flags\1x1\pw.svg" />
+    <Content Include="assets\flags\1x1\py.svg" />
+    <Content Include="assets\flags\1x1\qa.svg" />
+    <Content Include="assets\flags\1x1\re.svg" />
+    <Content Include="assets\flags\1x1\ro.svg" />
+    <Content Include="assets\flags\1x1\rs.svg" />
+    <Content Include="assets\flags\1x1\ru.svg" />
+    <Content Include="assets\flags\1x1\rw.svg" />
+    <Content Include="assets\flags\1x1\sa.svg" />
+    <Content Include="assets\flags\1x1\sb.svg" />
+    <Content Include="assets\flags\1x1\sc.svg" />
+    <Content Include="assets\flags\1x1\sd.svg" />
+    <Content Include="assets\flags\1x1\se.svg" />
+    <Content Include="assets\flags\1x1\sg.svg" />
+    <Content Include="assets\flags\1x1\sh.svg" />
+    <Content Include="assets\flags\1x1\si.svg" />
+    <Content Include="assets\flags\1x1\sj.svg" />
+    <Content Include="assets\flags\1x1\sk.svg" />
+    <Content Include="assets\flags\1x1\sl.svg" />
+    <Content Include="assets\flags\1x1\sm.svg" />
+    <Content Include="assets\flags\1x1\sn.svg" />
+    <Content Include="assets\flags\1x1\so.svg" />
+    <Content Include="assets\flags\1x1\sr.svg" />
+    <Content Include="assets\flags\1x1\ss.svg" />
+    <Content Include="assets\flags\1x1\st.svg" />
+    <Content Include="assets\flags\1x1\sv.svg" />
+    <Content Include="assets\flags\1x1\sx.svg" />
+    <Content Include="assets\flags\1x1\sy.svg" />
+    <Content Include="assets\flags\1x1\sz.svg" />
+    <Content Include="assets\flags\1x1\tc.svg" />
+    <Content Include="assets\flags\1x1\td.svg" />
+    <Content Include="assets\flags\1x1\tf.svg" />
+    <Content Include="assets\flags\1x1\tg.svg" />
+    <Content Include="assets\flags\1x1\th.svg" />
+    <Content Include="assets\flags\1x1\tj.svg" />
+    <Content Include="assets\flags\1x1\tk.svg" />
+    <Content Include="assets\flags\1x1\tl.svg" />
+    <Content Include="assets\flags\1x1\tm.svg" />
+    <Content Include="assets\flags\1x1\tn.svg" />
+    <Content Include="assets\flags\1x1\to.svg" />
+    <Content Include="assets\flags\1x1\tr.svg" />
+    <Content Include="assets\flags\1x1\tt.svg" />
+    <Content Include="assets\flags\1x1\tv.svg" />
+    <Content Include="assets\flags\1x1\tw.svg" />
+    <Content Include="assets\flags\1x1\tz.svg" />
+    <Content Include="assets\flags\1x1\ua.svg" />
+    <Content Include="assets\flags\1x1\ug.svg" />
+    <Content Include="assets\flags\1x1\um.svg" />
+    <Content Include="assets\flags\1x1\un.svg" />
+    <Content Include="assets\flags\1x1\us.svg" />
+    <Content Include="assets\flags\1x1\uy.svg" />
+    <Content Include="assets\flags\1x1\uz.svg" />
+    <Content Include="assets\flags\1x1\va.svg" />
+    <Content Include="assets\flags\1x1\vc.svg" />
+    <Content Include="assets\flags\1x1\ve.svg" />
+    <Content Include="assets\flags\1x1\vg.svg" />
+    <Content Include="assets\flags\1x1\vi.svg" />
+    <Content Include="assets\flags\1x1\vn.svg" />
+    <Content Include="assets\flags\1x1\vu.svg" />
+    <Content Include="assets\flags\1x1\wf.svg" />
+    <Content Include="assets\flags\1x1\ws.svg" />
+    <Content Include="assets\flags\1x1\ye.svg" />
+    <Content Include="assets\flags\1x1\yt.svg" />
+    <Content Include="assets\flags\1x1\za.svg" />
+    <Content Include="assets\flags\1x1\zm.svg" />
+    <Content Include="assets\flags\1x1\zw.svg" />
+    <Content Include="assets\flags\4x3\ad.svg" />
+    <Content Include="assets\flags\4x3\ae.svg" />
+    <Content Include="assets\flags\4x3\af.svg" />
+    <Content Include="assets\flags\4x3\ag.svg" />
+    <Content Include="assets\flags\4x3\ai.svg" />
+    <Content Include="assets\flags\4x3\al.svg" />
+    <Content Include="assets\flags\4x3\am.svg" />
+    <Content Include="assets\flags\4x3\ao.svg" />
+    <Content Include="assets\flags\4x3\aq.svg" />
+    <Content Include="assets\flags\4x3\ar.svg" />
+    <Content Include="assets\flags\4x3\as.svg" />
+    <Content Include="assets\flags\4x3\at.svg" />
+    <Content Include="assets\flags\4x3\au.svg" />
+    <Content Include="assets\flags\4x3\aw.svg" />
+    <Content Include="assets\flags\4x3\ax.svg" />
+    <Content Include="assets\flags\4x3\az.svg" />
+    <Content Include="assets\flags\4x3\ba.svg" />
+    <Content Include="assets\flags\4x3\bb.svg" />
+    <Content Include="assets\flags\4x3\bd.svg" />
+    <Content Include="assets\flags\4x3\be.svg" />
+    <Content Include="assets\flags\4x3\bf.svg" />
+    <Content Include="assets\flags\4x3\bg.svg" />
+    <Content Include="assets\flags\4x3\bh.svg" />
+    <Content Include="assets\flags\4x3\bi.svg" />
+    <Content Include="assets\flags\4x3\bj.svg" />
+    <Content Include="assets\flags\4x3\bl.svg" />
+    <Content Include="assets\flags\4x3\bm.svg" />
+    <Content Include="assets\flags\4x3\bn.svg" />
+    <Content Include="assets\flags\4x3\bo.svg" />
+    <Content Include="assets\flags\4x3\bq.svg" />
+    <Content Include="assets\flags\4x3\br.svg" />
+    <Content Include="assets\flags\4x3\bs.svg" />
+    <Content Include="assets\flags\4x3\bt.svg" />
+    <Content Include="assets\flags\4x3\bv.svg" />
+    <Content Include="assets\flags\4x3\bw.svg" />
+    <Content Include="assets\flags\4x3\by.svg" />
+    <Content Include="assets\flags\4x3\bz.svg" />
+    <Content Include="assets\flags\4x3\ca.svg" />
+    <Content Include="assets\flags\4x3\cc.svg" />
+    <Content Include="assets\flags\4x3\cd.svg" />
+    <Content Include="assets\flags\4x3\cf.svg" />
+    <Content Include="assets\flags\4x3\cg.svg" />
+    <Content Include="assets\flags\4x3\ch.svg" />
+    <Content Include="assets\flags\4x3\ci.svg" />
+    <Content Include="assets\flags\4x3\ck.svg" />
+    <Content Include="assets\flags\4x3\cl.svg" />
+    <Content Include="assets\flags\4x3\cm.svg" />
+    <Content Include="assets\flags\4x3\cn.svg" />
+    <Content Include="assets\flags\4x3\co.svg" />
+    <Content Include="assets\flags\4x3\cr.svg" />
+    <Content Include="assets\flags\4x3\cu.svg" />
+    <Content Include="assets\flags\4x3\cv.svg" />
+    <Content Include="assets\flags\4x3\cw.svg" />
+    <Content Include="assets\flags\4x3\cx.svg" />
+    <Content Include="assets\flags\4x3\cy.svg" />
+    <Content Include="assets\flags\4x3\cz.svg" />
+    <Content Include="assets\flags\4x3\de.svg" />
+    <Content Include="assets\flags\4x3\dj.svg" />
+    <Content Include="assets\flags\4x3\dk.svg" />
+    <Content Include="assets\flags\4x3\dm.svg" />
+    <Content Include="assets\flags\4x3\do.svg" />
+    <Content Include="assets\flags\4x3\dz.svg" />
+    <Content Include="assets\flags\4x3\ec.svg" />
+    <Content Include="assets\flags\4x3\ee.svg" />
+    <Content Include="assets\flags\4x3\eg.svg" />
+    <Content Include="assets\flags\4x3\eh.svg" />
+    <Content Include="assets\flags\4x3\er.svg" />
+    <Content Include="assets\flags\4x3\es-ct.svg" />
+    <Content Include="assets\flags\4x3\es.svg" />
+    <Content Include="assets\flags\4x3\et.svg" />
+    <Content Include="assets\flags\4x3\eu.svg" />
+    <Content Include="assets\flags\4x3\fi.svg" />
+    <Content Include="assets\flags\4x3\fj.svg" />
+    <Content Include="assets\flags\4x3\fk.svg" />
+    <Content Include="assets\flags\4x3\fm.svg" />
+    <Content Include="assets\flags\4x3\fo.svg" />
+    <Content Include="assets\flags\4x3\fr.svg" />
+    <Content Include="assets\flags\4x3\ga.svg" />
+    <Content Include="assets\flags\4x3\gb-eng.svg" />
+    <Content Include="assets\flags\4x3\gb-nir.svg" />
+    <Content Include="assets\flags\4x3\gb-sct.svg" />
+    <Content Include="assets\flags\4x3\gb-wls.svg" />
+    <Content Include="assets\flags\4x3\gb.svg" />
+    <Content Include="assets\flags\4x3\gd.svg" />
+    <Content Include="assets\flags\4x3\ge.svg" />
+    <Content Include="assets\flags\4x3\gf.svg" />
+    <Content Include="assets\flags\4x3\gg.svg" />
+    <Content Include="assets\flags\4x3\gh.svg" />
+    <Content Include="assets\flags\4x3\gi.svg" />
+    <Content Include="assets\flags\4x3\gl.svg" />
+    <Content Include="assets\flags\4x3\gm.svg" />
+    <Content Include="assets\flags\4x3\gn.svg" />
+    <Content Include="assets\flags\4x3\gp.svg" />
+    <Content Include="assets\flags\4x3\gq.svg" />
+    <Content Include="assets\flags\4x3\gr.svg" />
+    <Content Include="assets\flags\4x3\gs.svg" />
+    <Content Include="assets\flags\4x3\gt.svg" />
+    <Content Include="assets\flags\4x3\gu.svg" />
+    <Content Include="assets\flags\4x3\gw.svg" />
+    <Content Include="assets\flags\4x3\gy.svg" />
+    <Content Include="assets\flags\4x3\hk.svg" />
+    <Content Include="assets\flags\4x3\hm.svg" />
+    <Content Include="assets\flags\4x3\hn.svg" />
+    <Content Include="assets\flags\4x3\hr.svg" />
+    <Content Include="assets\flags\4x3\ht.svg" />
+    <Content Include="assets\flags\4x3\hu.svg" />
+    <Content Include="assets\flags\4x3\id.svg" />
+    <Content Include="assets\flags\4x3\ie.svg" />
+    <Content Include="assets\flags\4x3\il.svg" />
+    <Content Include="assets\flags\4x3\im.svg" />
+    <Content Include="assets\flags\4x3\in.svg" />
+    <Content Include="assets\flags\4x3\io.svg" />
+    <Content Include="assets\flags\4x3\iq.svg" />
+    <Content Include="assets\flags\4x3\ir.svg" />
+    <Content Include="assets\flags\4x3\is.svg" />
+    <Content Include="assets\flags\4x3\it.svg" />
+    <Content Include="assets\flags\4x3\je.svg" />
+    <Content Include="assets\flags\4x3\jm.svg" />
+    <Content Include="assets\flags\4x3\jo.svg" />
+    <Content Include="assets\flags\4x3\jp.svg" />
+    <Content Include="assets\flags\4x3\ke.svg" />
+    <Content Include="assets\flags\4x3\kg.svg" />
+    <Content Include="assets\flags\4x3\kh.svg" />
+    <Content Include="assets\flags\4x3\ki.svg" />
+    <Content Include="assets\flags\4x3\km.svg" />
+    <Content Include="assets\flags\4x3\kn.svg" />
+    <Content Include="assets\flags\4x3\kp.svg" />
+    <Content Include="assets\flags\4x3\kr.svg" />
+    <Content Include="assets\flags\4x3\kw.svg" />
+    <Content Include="assets\flags\4x3\ky.svg" />
+    <Content Include="assets\flags\4x3\kz.svg" />
+    <Content Include="assets\flags\4x3\la.svg" />
+    <Content Include="assets\flags\4x3\lb.svg" />
+    <Content Include="assets\flags\4x3\lc.svg" />
+    <Content Include="assets\flags\4x3\li.svg" />
+    <Content Include="assets\flags\4x3\lk.svg" />
+    <Content Include="assets\flags\4x3\lr.svg" />
+    <Content Include="assets\flags\4x3\ls.svg" />
+    <Content Include="assets\flags\4x3\lt.svg" />
+    <Content Include="assets\flags\4x3\lu.svg" />
+    <Content Include="assets\flags\4x3\lv.svg" />
+    <Content Include="assets\flags\4x3\ly.svg" />
+    <Content Include="assets\flags\4x3\ma.svg" />
+    <Content Include="assets\flags\4x3\mc.svg" />
+    <Content Include="assets\flags\4x3\md.svg" />
+    <Content Include="assets\flags\4x3\me.svg" />
+    <Content Include="assets\flags\4x3\mf.svg" />
+    <Content Include="assets\flags\4x3\mg.svg" />
+    <Content Include="assets\flags\4x3\mh.svg" />
+    <Content Include="assets\flags\4x3\mk.svg" />
+    <Content Include="assets\flags\4x3\ml.svg" />
+    <Content Include="assets\flags\4x3\mm.svg" />
+    <Content Include="assets\flags\4x3\mn.svg" />
+    <Content Include="assets\flags\4x3\mo.svg" />
+    <Content Include="assets\flags\4x3\mp.svg" />
+    <Content Include="assets\flags\4x3\mq.svg" />
+    <Content Include="assets\flags\4x3\mr.svg" />
+    <Content Include="assets\flags\4x3\ms.svg" />
+    <Content Include="assets\flags\4x3\mt.svg" />
+    <Content Include="assets\flags\4x3\mu.svg" />
+    <Content Include="assets\flags\4x3\mv.svg" />
+    <Content Include="assets\flags\4x3\mw.svg" />
+    <Content Include="assets\flags\4x3\mx.svg" />
+    <Content Include="assets\flags\4x3\my.svg" />
+    <Content Include="assets\flags\4x3\mz.svg" />
+    <Content Include="assets\flags\4x3\na.svg" />
+    <Content Include="assets\flags\4x3\nc.svg" />
+    <Content Include="assets\flags\4x3\ne.svg" />
+    <Content Include="assets\flags\4x3\nf.svg" />
+    <Content Include="assets\flags\4x3\ng.svg" />
+    <Content Include="assets\flags\4x3\ni.svg" />
+    <Content Include="assets\flags\4x3\nl.svg" />
+    <Content Include="assets\flags\4x3\no.svg" />
+    <Content Include="assets\flags\4x3\np.svg" />
+    <Content Include="assets\flags\4x3\nr.svg" />
+    <Content Include="assets\flags\4x3\nu.svg" />
+    <Content Include="assets\flags\4x3\nz.svg" />
+    <Content Include="assets\flags\4x3\om.svg" />
+    <Content Include="assets\flags\4x3\pa.svg" />
+    <Content Include="assets\flags\4x3\pe.svg" />
+    <Content Include="assets\flags\4x3\pf.svg" />
+    <Content Include="assets\flags\4x3\pg.svg" />
+    <Content Include="assets\flags\4x3\ph.svg" />
+    <Content Include="assets\flags\4x3\pk.svg" />
+    <Content Include="assets\flags\4x3\pl.svg" />
+    <Content Include="assets\flags\4x3\pm.svg" />
+    <Content Include="assets\flags\4x3\pn.svg" />
+    <Content Include="assets\flags\4x3\pr.svg" />
+    <Content Include="assets\flags\4x3\ps.svg" />
+    <Content Include="assets\flags\4x3\pt.svg" />
+    <Content Include="assets\flags\4x3\pw.svg" />
+    <Content Include="assets\flags\4x3\py.svg" />
+    <Content Include="assets\flags\4x3\qa.svg" />
+    <Content Include="assets\flags\4x3\re.svg" />
+    <Content Include="assets\flags\4x3\ro.svg" />
+    <Content Include="assets\flags\4x3\rs.svg" />
+    <Content Include="assets\flags\4x3\ru.svg" />
+    <Content Include="assets\flags\4x3\rw.svg" />
+    <Content Include="assets\flags\4x3\sa.svg" />
+    <Content Include="assets\flags\4x3\sb.svg" />
+    <Content Include="assets\flags\4x3\sc.svg" />
+    <Content Include="assets\flags\4x3\sd.svg" />
+    <Content Include="assets\flags\4x3\se.svg" />
+    <Content Include="assets\flags\4x3\sg.svg" />
+    <Content Include="assets\flags\4x3\sh.svg" />
+    <Content Include="assets\flags\4x3\si.svg" />
+    <Content Include="assets\flags\4x3\sj.svg" />
+    <Content Include="assets\flags\4x3\sk.svg" />
+    <Content Include="assets\flags\4x3\sl.svg" />
+    <Content Include="assets\flags\4x3\sm.svg" />
+    <Content Include="assets\flags\4x3\sn.svg" />
+    <Content Include="assets\flags\4x3\so.svg" />
+    <Content Include="assets\flags\4x3\sr.svg" />
+    <Content Include="assets\flags\4x3\ss.svg" />
+    <Content Include="assets\flags\4x3\st.svg" />
+    <Content Include="assets\flags\4x3\sv.svg" />
+    <Content Include="assets\flags\4x3\sx.svg" />
+    <Content Include="assets\flags\4x3\sy.svg" />
+    <Content Include="assets\flags\4x3\sz.svg" />
+    <Content Include="assets\flags\4x3\tc.svg" />
+    <Content Include="assets\flags\4x3\td.svg" />
+    <Content Include="assets\flags\4x3\tf.svg" />
+    <Content Include="assets\flags\4x3\tg.svg" />
+    <Content Include="assets\flags\4x3\th.svg" />
+    <Content Include="assets\flags\4x3\tj.svg" />
+    <Content Include="assets\flags\4x3\tk.svg" />
+    <Content Include="assets\flags\4x3\tl.svg" />
+    <Content Include="assets\flags\4x3\tm.svg" />
+    <Content Include="assets\flags\4x3\tn.svg" />
+    <Content Include="assets\flags\4x3\to.svg" />
+    <Content Include="assets\flags\4x3\tr.svg" />
+    <Content Include="assets\flags\4x3\tt.svg" />
+    <Content Include="assets\flags\4x3\tv.svg" />
+    <Content Include="assets\flags\4x3\tw.svg" />
+    <Content Include="assets\flags\4x3\tz.svg" />
+    <Content Include="assets\flags\4x3\ua.svg" />
+    <Content Include="assets\flags\4x3\ug.svg" />
+    <Content Include="assets\flags\4x3\um.svg" />
+    <Content Include="assets\flags\4x3\un.svg" />
+    <Content Include="assets\flags\4x3\us.svg" />
+    <Content Include="assets\flags\4x3\uy.svg" />
+    <Content Include="assets\flags\4x3\uz.svg" />
+    <Content Include="assets\flags\4x3\va.svg" />
+    <Content Include="assets\flags\4x3\vc.svg" />
+    <Content Include="assets\flags\4x3\ve.svg" />
+    <Content Include="assets\flags\4x3\vg.svg" />
+    <Content Include="assets\flags\4x3\vi.svg" />
+    <Content Include="assets\flags\4x3\vn.svg" />
+    <Content Include="assets\flags\4x3\vu.svg" />
+    <Content Include="assets\flags\4x3\wf.svg" />
+    <Content Include="assets\flags\4x3\ws.svg" />
+    <Content Include="assets\flags\4x3\ye.svg" />
+    <Content Include="assets\flags\4x3\yt.svg" />
+    <Content Include="assets\flags\4x3\za.svg" />
+    <Content Include="assets\flags\4x3\zm.svg" />
+    <Content Include="assets\flags\4x3\zw.svg" />
+    <Content Include="assets\fonts\fontawesome-webfont3e6e.svg" />
+    <Content Include="assets\fonts\Simple-Line-Iconsb26c.svg" />
+    <Content Include="assets\fonts\themify9f24.svg" />
+    <Content Include="assets\font\weathericons-regular-webfont-2.html" />
+    <Content Include="assets\font\weathericons-regular-webfont-3.html" />
+    <Content Include="assets\font\weathericons-regular-webfont.html" />
+    <Content Include="assets\images\avatars\avatar-1.png" />
+    <Content Include="assets\images\avatars\avatar-10.png" />
+    <Content Include="assets\images\avatars\avatar-13.png" />
+    <Content Include="assets\images\avatars\avatar-14.png" />
+    <Content Include="assets\images\avatars\avatar-15.png" />
+    <Content Include="assets\images\avatars\avatar-16.png" />
+    <Content Include="assets\images\avatars\avatar-17.png" />
+    <Content Include="assets\images\avatars\avatar-18.png" />
+    <Content Include="assets\images\avatars\avatar-2.png" />
+    <Content Include="assets\images\avatars\avatar-3.png" />
+    <Content Include="assets\images\avatars\avatar-4.png" />
+    <Content Include="assets\images\avatars\avatar-5.png" />
+    <Content Include="assets\images\avatars\avatar-6.png" />
+    <Content Include="assets\images\avatars\avatar-7.png" />
+    <Content Include="assets\images\avatars\avatar-8.png" />
+    <Content Include="assets\images\avatars\avatar-9.png" />
+    <Content Include="assets\images\bg-sighn-2.png" />
+    <Content Include="assets\images\bg-themes\1.png" />
+    <Content Include="assets\images\bg-themes\2.png" />
+    <Content Include="assets\images\bg-themes\3.png" />
+    <Content Include="assets\images\bg-themes\4.png" />
+    <Content Include="assets\images\bg-themes\5.png" />
+    <Content Include="assets\images\bg-themes\6.png" />
+    <Content Include="assets\images\coming-soon.png" />
+    <Content Include="assets\images\error-texture.png" />
+    <Content Include="assets\images\fancybox\big\big-img-1.jpg" />
+    <Content Include="assets\images\fancybox\big\big-img-10.jpg" />
+    <Content Include="assets\images\fancybox\big\big-img-11.jpg" />
+    <Content Include="assets\images\fancybox\big\big-img-12.jpg" />
+    <Content Include="assets\images\fancybox\big\big-img-13.jpg" />
+    <Content Include="assets\images\fancybox\big\big-img-14.jpg" />
+    <Content Include="assets\images\fancybox\big\big-img-15.jpg" />
+    <Content Include="assets\images\fancybox\big\big-img-16.jpg" />
+    <Content Include="assets\images\fancybox\big\big-img-2.jpg" />
+    <Content Include="assets\images\fancybox\big\big-img-3.jpg" />
+    <Content Include="assets\images\fancybox\big\big-img-4.jpg" />
+    <Content Include="assets\images\fancybox\big\big-img-5.jpg" />
+    <Content Include="assets\images\fancybox\big\big-img-6.jpg" />
+    <Content Include="assets\images\fancybox\big\big-img-7.jpg" />
+    <Content Include="assets\images\fancybox\big\big-img-8.jpg" />
+    <Content Include="assets\images\fancybox\big\big-img-9.jpg" />
+    <Content Include="assets\images\fancybox\small\small-img-1.jpg" />
+    <Content Include="assets\images\fancybox\small\small-img-10.jpg" />
+    <Content Include="assets\images\fancybox\small\small-img-11.jpg" />
+    <Content Include="assets\images\fancybox\small\small-img-12.jpg" />
+    <Content Include="assets\images\fancybox\small\small-img-13.jpg" />
+    <Content Include="assets\images\fancybox\small\small-img-14.jpg" />
+    <Content Include="assets\images\fancybox\small\small-img-15.jpg" />
+    <Content Include="assets\images\fancybox\small\small-img-16.jpg" />
+    <Content Include="assets\images\fancybox\small\small-img-2.jpg" />
+    <Content Include="assets\images\fancybox\small\small-img-3.jpg" />
+    <Content Include="assets\images\fancybox\small\small-img-4.jpg" />
+    <Content Include="assets\images\fancybox\small\small-img-5.jpg" />
+    <Content Include="assets\images\fancybox\small\small-img-6.jpg" />
+    <Content Include="assets\images\fancybox\small\small-img-7.jpg" />
+    <Content Include="assets\images\fancybox\small\small-img-8.jpg" />
+    <Content Include="assets\images\fancybox\small\small-img-9.jpg" />
+    <Content Include="assets\images\gallery\1.jpg" />
+    <Content Include="assets\images\gallery\10.jpg" />
+    <Content Include="assets\images\gallery\11.jpg" />
+    <Content Include="assets\images\gallery\12.jpg" />
+    <Content Include="assets\images\gallery\16.jpg" />
+    <Content Include="assets\images\gallery\17.jpg" />
+    <Content Include="assets\images\gallery\18.jpg" />
+    <Content Include="assets\images\gallery\19.jpg" />
+    <Content Include="assets\images\gallery\2.jpg" />
+    <Content Include="assets\images\gallery\20.jpg" />
+    <Content Include="assets\images\gallery\21.jpg" />
+    <Content Include="assets\images\gallery\25.jpg" />
+    <Content Include="assets\images\gallery\26.jpg" />
+    <Content Include="assets\images\gallery\3.jpg" />
+    <Content Include="assets\images\gallery\31.jpg" />
+    <Content Include="assets\images\gallery\4.jpg" />
+    <Content Include="assets\images\gallery\6.jpg" />
+    <Content Include="assets\images\gallery\7.jpg" />
+    <Content Include="assets\images\gallery\8.jpg" />
+    <Content Include="assets\images\gallery\9.jpg" />
+    <Content Include="assets\images\gallery\modal-img.jpg" />
+    <Content Include="assets\images\gallery\slider-1.jpg" />
+    <Content Include="assets\images\gallery\slider-10.jpg" />
+    <Content Include="assets\images\gallery\slider-11.jpg" />
+    <Content Include="assets\images\gallery\slider-12.jpg" />
+    <Content Include="assets\images\gallery\slider-2.jpg" />
+    <Content Include="assets\images\gallery\slider-4.jpg" />
+    <Content Include="assets\images\gallery\slider-5.jpg" />
+    <Content Include="assets\images\gallery\slider-6.jpg" />
+    <Content Include="assets\images\gallery\slider-7.jpg" />
+    <Content Include="assets\images\gallery\slider-8.jpg" />
+    <Content Include="assets\images\gallery\slider-9.jpg" />
+    <Content Include="assets\images\img\1.jpg" />
+    <Content Include="assets\images\img\10.jpg" />
+    <Content Include="assets\images\img\11.jpg" />
+    <Content Include="assets\images\img\12.jpg" />
+    <Content Include="assets\images\img\2.jpg" />
+    <Content Include="assets\images\img\3.jpg" />
+    <Content Include="assets\images\img\4.jpg" />
+    <Content Include="assets\images\img\5.jpg" />
+    <Content Include="assets\images\img\6.jpg" />
+    <Content Include="assets\images\img\7.jpg" />
+    <Content Include="assets\images\img\8.jpg" />
+    <Content Include="assets\images\img\9.jpg" />
+    <Content Include="assets\images\logo_carina_black.png" />
+    <Content Include="assets\images\logo_carina_white.png" />
+    <Content Include="assets\images\logo_login_carina-white.png" />
+    <Content Include="assets\images\payment-icons\american-dark.png" />
+    <Content Include="assets\images\payment-icons\mastro-dark.png" />
+    <Content Include="assets\images\payment-icons\momo.png" />
+    <Content Include="assets\images\payment-icons\onlinecarina.png" />
+    <Content Include="assets\images\payment-icons\paypal-dark.png" />
+    <Content Include="assets\images\payment-icons\visa-dark.png" />
+    <Content Include="assets\images\products\01.png" />
+    <Content Include="assets\images\products\02.png" />
+    <Content Include="assets\images\products\03.png" />
+    <Content Include="assets\images\products\04.png" />
+    <Content Include="assets\images\products\05.png" />
+    <Content Include="assets\images\products\06.png" />
+    <Content Include="assets\images\products\property01.jpg" />
+    <Content Include="assets\images\products\property02.jpg" />
+    <Content Include="assets\images\products\property03.jpg" />
+    <Content Include="assets\images\products\property04.jpg" />
+    <Content Include="assets\images\products\property05.jpg" />
+    <Content Include="assets\images\timeline\angular-icon.svg" />
+    <Content Include="assets\images\timeline\bootstrap-4.svg" />
+    <Content Include="assets\images\timeline\cd-arrow.svg" />
+    <Content Include="assets\images\timeline\cd-icon-location.svg" />
+    <Content Include="assets\images\timeline\cd-icon-movie.svg" />
+    <Content Include="assets\images\timeline\cd-icon-picture.svg" />
+    <Content Include="assets\images\timeline\html5.svg" />
+    <Content Include="assets\images\timeline\react.svg" />
+    <Content Include="assets\js\angular-1.6.5\angular-animate.js" />
+    <Content Include="assets\js\angular-1.6.5\angular-animate.min.js" />
+    <Content Include="assets\js\angular-1.6.5\angular-aria.js" />
+    <Content Include="assets\js\angular-1.6.5\angular-aria.min.js" />
+    <Content Include="assets\js\angular-1.6.5\angular-cookies.js" />
+    <Content Include="assets\js\angular-1.6.5\angular-cookies.min.js" />
+    <Content Include="assets\js\angular-1.6.5\angular-csp.css" />
+    <Content Include="assets\js\angular-1.6.5\angular-loader.js" />
+    <Content Include="assets\js\angular-1.6.5\angular-loader.min.js" />
+    <Content Include="assets\js\angular-1.6.5\angular-message-format.js" />
+    <Content Include="assets\js\angular-1.6.5\angular-message-format.min.js" />
+    <Content Include="assets\js\angular-1.6.5\angular-messages.js" />
+    <Content Include="assets\js\angular-1.6.5\angular-messages.min.js" />
+    <Content Include="assets\js\angular-1.6.5\angular-mocks.js" />
+    <Content Include="assets\js\angular-1.6.5\angular-parse-ext.js" />
+    <Content Include="assets\js\angular-1.6.5\angular-parse-ext.min.js" />
+    <Content Include="assets\js\angular-1.6.5\angular-resource.js" />
+    <Content Include="assets\js\angular-1.6.5\angular-resource.min.js" />
+    <Content Include="assets\js\angular-1.6.5\angular-route.js" />
+    <Content Include="assets\js\angular-1.6.5\angular-route.min.js" />
+    <Content Include="assets\js\angular-1.6.5\angular-sanitize.js" />
+    <Content Include="assets\js\angular-1.6.5\angular-sanitize.min.js" />
+    <Content Include="assets\js\angular-1.6.5\angular-scenario.js" />
+    <Content Include="assets\js\angular-1.6.5\angular-touch.js" />
+    <Content Include="assets\js\angular-1.6.5\angular-touch.min.js" />
+    <Content Include="assets\js\angular-1.6.5\angular.js" />
+    <Content Include="assets\js\angular-1.6.5\angular.min.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_af-na.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_af-za.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_af.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_agq-cm.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_agq.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ak-gh.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ak.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_am-et.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_am.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ar-001.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ar-ae.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ar-bh.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ar-dj.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ar-dz.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ar-eg.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ar-eh.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ar-er.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ar-il.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ar-iq.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ar-jo.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ar-km.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ar-kw.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ar-lb.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ar-ly.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ar-ma.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ar-mr.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ar-om.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ar-ps.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ar-qa.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ar-sa.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ar-sd.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ar-so.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ar-ss.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ar-sy.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ar-td.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ar-tn.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ar-xb.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ar-ye.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ar.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_as-in.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_as.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_asa-tz.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_asa.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ast-es.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ast.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_az-cyrl-az.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_az-cyrl.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_az-latn-az.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_az-latn.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_az.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_bas-cm.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_bas.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_be-by.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_be.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_bem-zm.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_bem.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_bez-tz.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_bez.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_bg-bg.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_bg.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_bm-ml.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_bm.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_bn-bd.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_bn-in.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_bn.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_bo-cn.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_bo-in.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_bo.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_br-fr.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_br.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_brx-in.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_brx.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_bs-cyrl-ba.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_bs-cyrl.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_bs-latn-ba.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_bs-latn.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_bs.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ca-ad.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ca-es-valencia.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ca-es.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ca-fr.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ca-it.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ca.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ce-ru.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ce.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_cgg-ug.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_cgg.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_chr-us.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_chr.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ckb-arab-iq.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ckb-arab-ir.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ckb-arab.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ckb-iq.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ckb-ir.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ckb-latn-iq.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ckb-latn.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ckb.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_cs-cz.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_cs.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_cu-ru.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_cu.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_cy-gb.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_cy.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_da-dk.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_da-gl.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_da.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_dav-ke.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_dav.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_de-at.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_de-be.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_de-ch.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_de-de.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_de-it.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_de-li.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_de-lu.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_de.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_dje-ne.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_dje.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_dsb-de.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_dsb.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_dua-cm.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_dua.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_dyo-sn.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_dyo.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_dz-bt.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_dz.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ebu-ke.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ebu.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ee-gh.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ee-tg.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ee.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_el-cy.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_el-gr.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_el.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-001.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-150.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-ag.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-ai.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-as.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-at.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-au.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-bb.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-be.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-bi.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-bm.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-bs.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-bw.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-bz.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-ca.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-cc.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-ch.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-ck.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-cm.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-cx.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-cy.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-de.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-dg.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-dk.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-dm.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-er.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-fi.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-fj.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-fk.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-fm.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-gb.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-gd.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-gg.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-gh.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-gi.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-gm.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-gu.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-gy.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-hk.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-ie.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-il.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-im.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-in.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-io.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-iso.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-je.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-jm.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-ke.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-ki.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-kn.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-ky.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-lc.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-lr.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-ls.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-mg.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-mh.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-mo.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-mp.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-ms.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-mt.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-mu.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-mw.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-my.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-na.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-nf.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-ng.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-nl.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-nr.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-nu.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-nz.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-pg.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-ph.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-pk.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-pn.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-pr.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-pw.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-rw.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-sb.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-sc.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-sd.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-se.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-sg.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-sh.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-si.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-sl.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-ss.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-sx.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-sz.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-tc.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-tk.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-to.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-tt.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-tv.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-tz.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-ug.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-um.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-us-posix.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-us.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-vc.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-vg.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-vi.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-vu.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-ws.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-xa.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-za.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-zm.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en-zw.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_en.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_eo-001.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_eo.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_es-419.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_es-ar.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_es-bo.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_es-br.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_es-bz.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_es-cl.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_es-co.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_es-cr.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_es-cu.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_es-do.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_es-ea.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_es-ec.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_es-es.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_es-gq.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_es-gt.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_es-hn.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_es-ic.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_es-mx.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_es-ni.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_es-pa.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_es-pe.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_es-ph.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_es-pr.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_es-py.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_es-sv.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_es-us.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_es-uy.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_es-ve.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_es.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_et-ee.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_et.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_eu-es.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_eu.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ewo-cm.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ewo.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_fa-af.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_fa-ir.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_fa.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ff-cm.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ff-gn.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ff-mr.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ff-sn.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ff.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_fi-fi.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_fi.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_fil-ph.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_fil.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_fo-dk.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_fo-fo.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_fo.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_fr-be.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_fr-bf.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_fr-bi.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_fr-bj.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_fr-bl.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_fr-ca.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_fr-cd.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_fr-cf.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_fr-cg.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_fr-ch.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_fr-ci.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_fr-cm.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_fr-dj.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_fr-dz.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_fr-fr.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_fr-ga.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_fr-gf.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_fr-gn.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_fr-gp.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_fr-gq.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_fr-ht.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_fr-km.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_fr-lu.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_fr-ma.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_fr-mc.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_fr-mf.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_fr-mg.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_fr-ml.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_fr-mq.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_fr-mr.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_fr-mu.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_fr-nc.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_fr-ne.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_fr-pf.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_fr-pm.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_fr-re.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_fr-rw.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_fr-sc.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_fr-sn.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_fr-sy.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_fr-td.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_fr-tg.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_fr-tn.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_fr-vu.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_fr-wf.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_fr-yt.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_fr.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_fur-it.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_fur.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_fy-nl.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_fy.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ga-ie.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ga.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_gd-gb.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_gd.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_gl-es.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_gl.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_gsw-ch.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_gsw-fr.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_gsw-li.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_gsw.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_gu-in.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_gu.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_guz-ke.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_guz.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_gv-im.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_gv.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ha-gh.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ha-ne.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ha-ng.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ha.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_haw-us.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_haw.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_he-il.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_he.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_hi-in.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_hi.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_hr-ba.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_hr-hr.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_hr.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_hsb-de.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_hsb.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_hu-hu.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_hu.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_hy-am.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_hy.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_id-id.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_id.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ig-ng.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ig.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ii-cn.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ii.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_in.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_is-is.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_is.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_it-ch.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_it-it.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_it-sm.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_it-va.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_it.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_iw.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ja-jp.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ja.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_jgo-cm.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_jgo.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_jmc-tz.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_jmc.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ka-ge.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ka.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_kab-dz.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_kab.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_kam-ke.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_kam.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_kde-tz.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_kde.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_kea-cv.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_kea.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_khq-ml.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_khq.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ki-ke.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ki.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_kk-kz.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_kk.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_kkj-cm.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_kkj.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_kl-gl.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_kl.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_kln-ke.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_kln.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_km-kh.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_km.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_kn-in.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_kn.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ko-kp.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ko-kr.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ko.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_kok-in.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_kok.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ks-in.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ks.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ksb-tz.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ksb.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ksf-cm.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ksf.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ksh-de.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ksh.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_kw-gb.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_kw.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ky-kg.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ky.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_lag-tz.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_lag.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_lb-lu.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_lb.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_lg-ug.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_lg.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_lkt-us.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_lkt.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ln-ao.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ln-cd.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ln-cf.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ln-cg.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ln.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_lo-la.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_lo.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_lrc-iq.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_lrc-ir.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_lrc.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_lt-lt.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_lt.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_lu-cd.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_lu.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_luo-ke.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_luo.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_luy-ke.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_luy.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_lv-lv.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_lv.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_mas-ke.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_mas-tz.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_mas.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_mer-ke.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_mer.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_mfe-mu.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_mfe.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_mg-mg.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_mg.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_mgh-mz.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_mgh.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_mgo-cm.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_mgo.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_mk-mk.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_mk.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ml-in.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ml.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_mn-mn.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_mn.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_mo.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_mr-in.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_mr.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ms-bn.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ms-my.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ms-sg.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ms.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_mt-mt.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_mt.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_mua-cm.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_mua.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_my-mm.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_my.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_mzn-ir.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_mzn.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_naq-na.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_naq.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_nb-no.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_nb-sj.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_nb.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_nd-zw.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_nd.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_nds-de.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_nds-nl.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_nds.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ne-in.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ne-np.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ne.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_nl-aw.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_nl-be.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_nl-bq.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_nl-cw.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_nl-nl.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_nl-sr.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_nl-sx.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_nl.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_nmg-cm.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_nmg.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_nn-no.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_nn.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_nnh-cm.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_nnh.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_no-no.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_no.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_nus-ss.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_nus.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_nyn-ug.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_nyn.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_om-et.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_om-ke.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_om.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_or-in.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_or.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_os-ge.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_os-ru.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_os.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_pa-arab-pk.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_pa-arab.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_pa-guru-in.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_pa-guru.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_pa.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_pl-pl.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_pl.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_prg-001.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_prg.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ps-af.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ps.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_pt-ao.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_pt-br.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_pt-ch.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_pt-cv.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_pt-gq.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_pt-gw.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_pt-lu.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_pt-mo.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_pt-mz.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_pt-pt.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_pt-st.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_pt-tl.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_pt.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_qu-bo.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_qu-ec.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_qu-pe.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_qu.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_rm-ch.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_rm.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_rn-bi.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_rn.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ro-md.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ro-ro.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ro.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_rof-tz.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_rof.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ru-by.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ru-kg.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ru-kz.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ru-md.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ru-ru.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ru-ua.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ru.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_rw-rw.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_rw.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_rwk-tz.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_rwk.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_sah-ru.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_sah.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_saq-ke.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_saq.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_sbp-tz.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_sbp.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_se-fi.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_se-no.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_se-se.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_se.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_seh-mz.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_seh.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ses-ml.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ses.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_sg-cf.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_sg.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_sh.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_shi-latn-ma.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_shi-latn.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_shi-tfng-ma.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_shi-tfng.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_shi.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_si-lk.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_si.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_sk-sk.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_sk.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_sl-si.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_sl.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_smn-fi.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_smn.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_sn-zw.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_sn.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_so-dj.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_so-et.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_so-ke.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_so-so.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_so.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_sq-al.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_sq-mk.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_sq-xk.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_sq.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_sr-cyrl-ba.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_sr-cyrl-me.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_sr-cyrl-rs.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_sr-cyrl-xk.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_sr-cyrl.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_sr-latn-ba.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_sr-latn-me.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_sr-latn-rs.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_sr-latn-xk.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_sr-latn.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_sr.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_sv-ax.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_sv-fi.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_sv-se.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_sv.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_sw-cd.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_sw-ke.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_sw-tz.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_sw-ug.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_sw.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ta-in.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ta-lk.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ta-my.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ta-sg.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ta.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_te-in.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_te.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_teo-ke.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_teo-ug.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_teo.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_th-th.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_th.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ti-er.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ti-et.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ti.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_tk-tm.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_tk.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_tl.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_to-to.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_to.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_tr-cy.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_tr-tr.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_tr.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_twq-ne.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_twq.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_tzm-ma.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_tzm.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ug-cn.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ug.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_uk-ua.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_uk.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ur-in.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ur-pk.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_ur.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_uz-arab-af.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_uz-arab.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_uz-cyrl-uz.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_uz-cyrl.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_uz-latn-uz.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_uz-latn.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_uz.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_vai-latn-lr.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_vai-latn.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_vai-vaii-lr.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_vai-vaii.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_vai.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_vi-vn.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_vi.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_vo-001.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_vo.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_vun-tz.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_vun.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_wae-ch.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_wae.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_xog-ug.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_xog.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_yav-cm.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_yav.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_yi-001.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_yi.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_yo-bj.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_yo-ng.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_yo.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_yue-hk.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_yue.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_zgh-ma.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_zgh.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_zh-cn.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_zh-hans-cn.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_zh-hans-hk.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_zh-hans-mo.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_zh-hans-sg.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_zh-hans.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_zh-hant-hk.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_zh-hant-mo.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_zh-hant-tw.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_zh-hant.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_zh-hk.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_zh-tw.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_zh.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_zu-za.js" />
+    <Content Include="assets\js\angular-1.6.5\i18n\angular-locale_zu.js" />
+    <Content Include="assets\js\angular-1.6.5\version.txt" />
+    <Content Include="assets\js\app-script.js" />
+    <Content Include="assets\js\bootstrap.min.js" />
+    <Content Include="assets\js\datepicker.min.js" />
+    <Content Include="assets\js\fontawesome.min.js" />
+    <Content Include="assets\js\index.js" />
+    <Content Include="assets\js\jquery.loading-indicator.html" />
+    <Content Include="assets\js\jquery.min.js" />
+    <Content Include="assets\js\popper.min.js" />
+    <Content Include="assets\js\sidebar-menu.js" />
+    <Content Include="assets\plugins\alerts-boxes\js\sweet-alert-script.js" />
+    <Content Include="assets\plugins\alerts-boxes\js\sweetalert.min.js" />
+    <Content Include="assets\plugins\bootstrap-datatable\css\buttons.bootstrap4.min.css" />
+    <Content Include="assets\plugins\bootstrap-datatable\css\dataTables.bootstrap4.min.css" />
+    <Content Include="assets\plugins\bootstrap-datatable\js\buttons.bootstrap4.min.js" />
+    <Content Include="assets\plugins\bootstrap-datatable\js\buttons.colVis.min.js" />
+    <Content Include="assets\plugins\bootstrap-datatable\js\buttons.html5.min.js" />
+    <Content Include="assets\plugins\bootstrap-datatable\js\buttons.print.min.js" />
+    <Content Include="assets\plugins\bootstrap-datatable\js\dataTables.bootstrap4.min.js" />
+    <Content Include="assets\plugins\bootstrap-datatable\js\dataTables.buttons.min.js" />
+    <Content Include="assets\plugins\bootstrap-datatable\js\datatables.dataRender.js" />
+    <Content Include="assets\plugins\bootstrap-datatable\js\jquery.dataTables.min.js" />
+    <Content Include="assets\plugins\bootstrap-datatable\js\jszip.min.js" />
+    <Content Include="assets\plugins\bootstrap-datatable\js\pdfmake.min.js" />
+    <Content Include="assets\plugins\bootstrap-datatable\js\vfs_fonts.js" />
+    <Content Include="assets\plugins\Chart.js\Chart.min.js" />
+    <Content Include="assets\plugins\Chart.js\chartjs-script.js" />
+    <Content Include="assets\plugins\jquery-knob\excanvas.js" />
+    <Content Include="assets\plugins\jquery-knob\jquery.knob.js" />
+    <Content Include="assets\plugins\jquery-validation\js\jquery.validate.min.js" />
+    <Content Include="assets\plugins\sparkline-charts\jquery.sparkline.min.js" />
+    <Content Include="assets\plugins\sparkline-charts\sparkline-chart-script.js" />
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="favicon.ico" />
+    <Content Include="File_inc\Back_top_footer.inc.aspx" />
+    <Content Include="File_inc\loader.inc.aspx" />
+    <Content Include="File_inc\Sidebar-wrapper.inc.aspx" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="home2.aspx" />
+    <Content Include="KhachHang2.aspx" />
+    <Content Include="login.aspx" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Areas\HelpPage\Views\Web.config" />
+    <Content Include="Areas\HelpPage\Views\Shared\_Layout.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\ResourceModel.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\Index.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\TextSample.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\SimpleTypeModelDescription.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\Samples.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\Parameters.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ModelDescriptionLink.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\KeyValuePairModelDescription.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\InvalidSample.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ImageSample.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\HelpPageApiModel.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\EnumTypeModelDescription.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\DictionaryModelDescription.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ComplexTypeModelDescription.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\CollectionModelDescription.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ApiGroup.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\Api.cshtml" />
+    <Content Include="assets\fonts\fontawesome-webfont3e6e.eot" />
+    <Content Include="assets\fonts\fontawesome-webfont3e6e.ttf" />
+    <Content Include="assets\fonts\fontawesome-webfont3e6e.woff" />
+    <Content Include="assets\fonts\fontawesome-webfont3e6e.woff2" />
+    <Content Include="assets\fonts\fontawesome-webfontd41d.eot" />
+    <Content Include="assets\fonts\Material-Design-Iconic-Fontd1f1.ttf" />
+    <Content Include="assets\fonts\Material-Design-Iconic-Fontd1f1.woff" />
+    <Content Include="assets\fonts\Material-Design-Iconic-Fontd1f1.woff2" />
+    <Content Include="assets\fonts\Simple-Line-Iconsb26c.eot" />
+    <Content Include="assets\fonts\Simple-Line-Iconsb26c.ttf" />
+    <Content Include="assets\fonts\Simple-Line-Iconsb26c.woff" />
+    <Content Include="assets\fonts\Simple-Line-Iconsb26c.woff2" />
+    <Content Include="assets\fonts\themify9f24.eot" />
+    <Content Include="assets\fonts\themify9f24.ttf" />
+    <Content Include="assets\fonts\themify9f24.woff" />
+    <Content Include="assets\fonts\themifyd41d.eot" />
+    <Content Include="assets\fonts\weathericons-regular-webfont.eot" />
+    <Content Include="assets\fonts\weathericons-regular-webfont.woff2" />
+    <Content Include="assets\fonts\weathericons-regular-webfontd41d.eot" />
+    <Content Include="assets\js\angular-1.6.5\angular-animate.min.js.map" />
+    <Content Include="assets\js\angular-1.6.5\angular-aria.min.js.map" />
+    <Content Include="assets\js\angular-1.6.5\angular-cookies.min.js.map" />
+    <Content Include="assets\js\angular-1.6.5\angular-loader.min.js.map" />
+    <Content Include="assets\js\angular-1.6.5\angular-message-format.min.js.map" />
+    <Content Include="assets\js\angular-1.6.5\angular-messages.min.js.map" />
+    <Content Include="assets\js\angular-1.6.5\angular-parse-ext.min.js.map" />
+    <Content Include="assets\js\angular-1.6.5\angular-resource.min.js.map" />
+    <Content Include="assets\js\angular-1.6.5\angular-route.min.js.map" />
+    <Content Include="assets\js\angular-1.6.5\angular-sanitize.min.js.map" />
+    <Content Include="assets\js\angular-1.6.5\angular-touch.min.js.map" />
+    <Content Include="assets\js\angular-1.6.5\angular.min.js.map" />
+    <Content Include="assets\js\angular-1.6.5\errors.json" />
+    <Content Include="assets\js\angular-1.6.5\version.json" />
+    <None Include="Scripts\jquery-3.3.1.intellisense.js" />
+    <Content Include="Scripts\jquery-3.3.1.js" />
+    <Content Include="Scripts\jquery-3.3.1.min.js" />
+    <Content Include="Scripts\jquery-3.3.1.slim.js" />
+    <Content Include="Scripts\jquery-3.3.1.slim.min.js" />
+    <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Table_hoa_don2.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Areas\HelpPage\Views\_ViewStart.cshtml" />
+    <Content Include="Content\Site.css" />
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Site2.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\bootstrap.min.css.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\bootstrap.css.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\bootstrap-theme.min.css.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\bootstrap-theme.css.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
+    <Content Include="Scripts\jquery-3.3.1.min.map" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>58999</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44360/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>

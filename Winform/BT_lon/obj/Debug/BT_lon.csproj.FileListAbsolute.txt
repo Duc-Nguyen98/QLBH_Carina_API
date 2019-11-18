@@ -1,0 +1,118 @@
+E:\BT Visual\BT_lon\BT_lon\bin\Debug\BT_lon.exe.config
+E:\BT Visual\BT_lon\BT_lon\bin\Debug\BT_lon.exe
+E:\BT Visual\BT_lon\BT_lon\bin\Debug\BT_lon.pdb
+E:\BT Visual\BT_lon\BT_lon\obj\Debug\BT_lon.Form1.resources
+E:\BT Visual\BT_lon\BT_lon\obj\Debug\BT_lon.Properties.Resources.resources
+E:\BT Visual\BT_lon\BT_lon\obj\Debug\BT_lon.csproj.GenerateResource.Cache
+E:\BT Visual\BT_lon\BT_lon\obj\Debug\BT_lon.exe
+E:\BT Visual\BT_lon\BT_lon\obj\Debug\BT_lon.pdb
+E:\BT Visual\BT_lon\BT_lon\obj\Debug\BT_lon.Home.resources
+E:\BT Visual\BT_lon\BT_lon\obj\Debug\BT_lon.Login_form.resources
+E:\BT Visual\BT_lon\BT_lon\obj\Debug\BT_lon.Khach_hang.resources
+E:\BT Visual\BT_lon\BT_lon\obj\Debug\BT_lon.Hoa_Don.resources
+E:\BT Visual\BT_lon\BT_lon\obj\Debug\BT_lon.Nhan_Vien.resources
+E:\BT Visual\BT_lon\BT_lon\obj\Debug\BT_lon.Them_NV.resources
+E:\BT Visual\BT_lon\BT_lon\obj\Debug\BT_lon.Nha_Cung_Cap.resources
+E:\BT Visual\BT_lon\BT_lon\obj\Debug\BT_lon.Them_Nha_Cung_Cap.resources
+E:\BT Visual\BT_lon\BT_lon\obj\Debug\BT_lon.San_Pham.resources
+E:\BT Visual\BT_lon\BT_lon\obj\Debug\BT_lon.Doanh_Thu.resources
+E:\BT Visual\BT_lon\BT_lon\obj\Debug\BT_lon.csprojResolveAssemblyReference.cache
+E:\BT Visual\BT_lon\BT_lon\obj\Debug\BT_lon.Them_Khach_Hang.resources
+E:\BT Visual\BT_lon\BT_lon\obj\Debug\BT_lon.Test_themNV.resources
+E:\BT Visual\BT_lon\BT_lon\obj\Debug\BT_lon.Sua_nhan_vien.resources
+E:\BT Visual\BT_lon\BT_lon\bin\Debug\PagedList.dll
+E:\BT Visual\BT_lon\BT_lon\bin\Debug\PagedList.xml
+E:\BT Visual\BT_lon\BT_lon\bin\Debug\LiveCharts.dll
+E:\BT Visual\BT_lon\BT_lon\bin\Debug\LiveCharts.WinForms.dll
+E:\BT Visual\BT_lon\BT_lon\bin\Debug\LiveCharts.Wpf.dll
+E:\BT Visual\BT_lon\BT_lon\bin\Debug\LiveCharts.pdb
+E:\BT Visual\BT_lon\BT_lon\bin\Debug\LiveCharts.xml
+E:\BT Visual\BT_lon\BT_lon\bin\Debug\LiveCharts.WinForms.pdb
+E:\BT Visual\BT_lon\BT_lon\bin\Debug\LiveCharts.WinForms.xml
+E:\BT Visual\BT_lon\BT_lon\bin\Debug\LiveCharts.Wpf.pdb
+E:\BT Visual\BT_lon\BT_lon\bin\Debug\LiveCharts.Wpf.xml
+E:\BT Visual\BT_lon\BT_lon\obj\Debug\BT_lon.Resources.Doi_MK.resources
+E:\BT Visual\BT_lon\BT_lon\obj\Debug\BT_lon.test.resources
+E:\BT Visual\BT_lon\BT_lon\obj\Debug\BT_lon.Cap_nhat_MK.resources
+C:\Users\dauquan\Desktop\QLBH_Carina_API\Winform\BT_lon\bin\Debug\BT_lon.exe.config
+C:\Users\dauquan\Desktop\QLBH_Carina_API\Winform\BT_lon\obj\Debug\BT_lon.exe
+C:\Users\dauquan\Desktop\QLBH_Carina_API\Winform\BT_lon\obj\Debug\BT_lon.pdb
+C:\Users\dauquan\Desktop\QLBH_Carina_API\Winform\BT_lon\bin\Debug\BT_lon.exe
+C:\Users\dauquan\Desktop\QLBH_Carina_API\Winform\BT_lon\bin\Debug\BT_lon.pdb
+C:\Users\dauquan\Desktop\QLBH_Carina_API\Winform\BT_lon\bin\Debug\LiveCharts.dll
+C:\Users\dauquan\Desktop\QLBH_Carina_API\Winform\BT_lon\bin\Debug\LiveCharts.WinForms.dll
+C:\Users\dauquan\Desktop\QLBH_Carina_API\Winform\BT_lon\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\dauquan\Desktop\QLBH_Carina_API\Winform\BT_lon\bin\Debug\PagedList.dll
+C:\Users\dauquan\Desktop\QLBH_Carina_API\Winform\BT_lon\bin\Debug\LiveCharts.pdb
+C:\Users\dauquan\Desktop\QLBH_Carina_API\Winform\BT_lon\bin\Debug\LiveCharts.xml
+C:\Users\dauquan\Desktop\QLBH_Carina_API\Winform\BT_lon\bin\Debug\LiveCharts.WinForms.pdb
+C:\Users\dauquan\Desktop\QLBH_Carina_API\Winform\BT_lon\bin\Debug\LiveCharts.WinForms.xml
+C:\Users\dauquan\Desktop\QLBH_Carina_API\Winform\BT_lon\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\dauquan\Desktop\QLBH_Carina_API\Winform\BT_lon\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\dauquan\Desktop\QLBH_Carina_API\Winform\BT_lon\bin\Debug\PagedList.xml
+C:\Users\dauquan\Desktop\QLBH_Carina_API\Winform\BT_lon\obj\Debug\BT_lon.Form1.resources
+C:\Users\dauquan\Desktop\QLBH_Carina_API\Winform\BT_lon\obj\Debug\BT_lon.Hoa_Don.resources
+C:\Users\dauquan\Desktop\QLBH_Carina_API\Winform\BT_lon\obj\Debug\BT_lon.Home.resources
+C:\Users\dauquan\Desktop\QLBH_Carina_API\Winform\BT_lon\obj\Debug\BT_lon.Khach_Hang.resources
+C:\Users\dauquan\Desktop\QLBH_Carina_API\Winform\BT_lon\obj\Debug\BT_lon.Login_form.resources
+C:\Users\dauquan\Desktop\QLBH_Carina_API\Winform\BT_lon\obj\Debug\BT_lon.Nhan_Vien.resources
+C:\Users\dauquan\Desktop\QLBH_Carina_API\Winform\BT_lon\obj\Debug\BT_lon.Nha_Cung_Cap.resources
+C:\Users\dauquan\Desktop\QLBH_Carina_API\Winform\BT_lon\obj\Debug\BT_lon.Properties.Resources.resources
+C:\Users\dauquan\Desktop\QLBH_Carina_API\Winform\BT_lon\obj\Debug\BT_lon.Resources.Doi_MK.resources
+C:\Users\dauquan\Desktop\QLBH_Carina_API\Winform\BT_lon\obj\Debug\BT_lon.San_Pham.resources
+C:\Users\dauquan\Desktop\QLBH_Carina_API\Winform\BT_lon\obj\Debug\BT_lon.test.resources
+C:\Users\dauquan\Desktop\QLBH_Carina_API\Winform\BT_lon\obj\Debug\BT_lon.Cap_nhat_MK.resources
+C:\Users\dauquan\Desktop\QLBH_Carina_API\Winform\BT_lon\obj\Debug\BT_lon.Them_Nha_Cung_Cap.resources
+C:\Users\dauquan\Desktop\QLBH_Carina_API\Winform\BT_lon\obj\Debug\BT_lon.Them_NV.resources
+C:\Users\dauquan\Desktop\QLBH_Carina_API\Winform\BT_lon\obj\Debug\BT_lon.csproj.GenerateResource.Cache
+C:\Users\dauquan\Desktop\QLBH_Carina_API\Winform\BT_lon\obj\Debug\BT_lon.Them_SP.resources
+C:\Users\dauquan\Desktop\QLBH_Carina_API\Winform\BT_lon\obj\Debug\BT_lon.csproj.ResolveComReference.cache
+C:\Users\dauquan\Desktop\QLBH_Carina_API\Winform\BT_lon\obj\Debug\BT_lon.csprojResolveAssemblyReference.cache
+C:\Users\dauquan\Desktop\QLBH_Carina_API\Winform\BT_lon\obj\Debug\BT_lon.Huong_Su_Dung.resources
+C:\Users\dauquan\Desktop\QLBH_Carina_API\Winform\BT_lon\obj\Debug\BT_lon.HDSD_Nhan_Vien.resources
+C:\Users\dauquan\Desktop\QLBH_Carina_API\Winform\BT_lon\obj\Debug\BT_lon.HDSD_Hoa_Don.resources
+C:\Users\dauquan\Desktop\QLBH_Carina_API\Winform\BT_lon\obj\Debug\BT_lon.HDSD_Khach_Hang.resources
+C:\Users\dauquan\Desktop\QLBH_Carina_API\Winform\BT_lon\obj\Debug\BT_lon.HDSD_Nha_Cung_Cap.resources
+C:\Users\dauquan\Desktop\QLBH_Carina_API\Winform\BT_lon\obj\Debug\BT_lon.HDSD_San_Pham.resources
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\Winform\BT_lon\bin\Debug\BT_lon.exe.config
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\Winform\BT_lon\bin\Debug\BT_lon.exe
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\Winform\BT_lon\bin\Debug\BT_lon.pdb
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\Winform\BT_lon\bin\Debug\LiveCharts.dll
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\Winform\BT_lon\bin\Debug\LiveCharts.WinForms.dll
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\Winform\BT_lon\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\Winform\BT_lon\bin\Debug\PagedList.dll
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\Winform\BT_lon\bin\Debug\LiveCharts.pdb
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\Winform\BT_lon\bin\Debug\LiveCharts.xml
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\Winform\BT_lon\bin\Debug\LiveCharts.WinForms.pdb
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\Winform\BT_lon\bin\Debug\LiveCharts.WinForms.xml
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\Winform\BT_lon\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\Winform\BT_lon\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\Winform\BT_lon\bin\Debug\PagedList.xml
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\Winform\BT_lon\obj\Debug\BT_lon.csprojAssemblyReference.cache
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\Winform\BT_lon\obj\Debug\BT_lon.csproj.ResolveComReference.cache
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\Winform\BT_lon\obj\Debug\BT_lon.HDSD_Hoa_Don.resources
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\Winform\BT_lon\obj\Debug\BT_lon.HDSD_Khach_Hang.resources
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\Winform\BT_lon\obj\Debug\BT_lon.HDSD_Nhan_Vien.resources
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\Winform\BT_lon\obj\Debug\BT_lon.HDSD_Nha_Cung_Cap.resources
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\Winform\BT_lon\obj\Debug\BT_lon.HDSD_San_Pham.resources
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\Winform\BT_lon\obj\Debug\BT_lon.Huong_Su_Dung.resources
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\Winform\BT_lon\obj\Debug\BT_lon.Form1.resources
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\Winform\BT_lon\obj\Debug\BT_lon.Hoa_Don.resources
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\Winform\BT_lon\obj\Debug\BT_lon.Home.resources
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\Winform\BT_lon\obj\Debug\BT_lon.Khach_Hang.resources
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\Winform\BT_lon\obj\Debug\BT_lon.Login_form.resources
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\Winform\BT_lon\obj\Debug\BT_lon.Nhan_Vien.resources
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\Winform\BT_lon\obj\Debug\BT_lon.Nha_Cung_Cap.resources
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\Winform\BT_lon\obj\Debug\BT_lon.Properties.Resources.resources
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\Winform\BT_lon\obj\Debug\BT_lon.Resources.Doi_MK.resources
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\Winform\BT_lon\obj\Debug\BT_lon.San_Pham.resources
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\Winform\BT_lon\obj\Debug\BT_lon.test.resources
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\Winform\BT_lon\obj\Debug\BT_lon.Cap_nhat_MK.resources
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\Winform\BT_lon\obj\Debug\BT_lon.Them_Nha_Cung_Cap.resources
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\Winform\BT_lon\obj\Debug\BT_lon.Them_NV.resources
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\Winform\BT_lon\obj\Debug\BT_lon.Them_SP.resources
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\Winform\BT_lon\obj\Debug\BT_lon.csproj.GenerateResource.cache
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\Winform\BT_lon\obj\Debug\BT_lon.csproj.CoreCompileInputs.cache
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\Winform\BT_lon\obj\Debug\BT_lon.csproj.CopyComplete
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\Winform\BT_lon\obj\Debug\BT_lon.exe
+C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\Winform\BT_lon\obj\Debug\BT_lon.pdb
