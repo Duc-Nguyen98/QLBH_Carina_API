@@ -156,7 +156,7 @@
                         </button>
                     </div>
                     <div class="modal-body">
-                        <form id="personal-create-info">
+                        <form id="taomoi">
 
                             <div class="row">
                                 <div class="col-sm-6">
@@ -177,7 +177,7 @@
                             <div class="row">
                                 <div class="col-sm-12">
                                     <label for="input-4">Địa Chỉ Giao Hàng</label>
-                                    <input type="text" class="form-control form-control-rounded col-12" id="input-144" name="diachi" placeholder="Ví dụ: dịa chỉ" autocomplete="off" data-ng-model="taomoihoadon.Dia_chi_giao_hang" autocomplete="off" data-ng-required="required">
+                                    <input type="text" class="form-control form-control-rounded col-12" name="diachi" placeholder="Ví dụ: dịa chỉ" autocomplete="off" data-ng-model="taomoihoadon.Dia_chi_giao_hang" data-ng-required="required">
                                 </div>
                             </div>
                             <div class="row">
@@ -190,17 +190,21 @@
                                 </div>
                                 <div class="col-sm-6">
                                     <label for="input-3">Tình Trạng Hóa Đơn</label>
-                                    <select class="form-control form-control-rounded" id="basic-select" data-ng-model="taomoihoadon.ID_trang_thai" name="hoadon" data-ng-options="data.ID_trang_thai as data.Ten_trang_thai for data in DanhMucTrangThaii" data-ng-required="required">
+                                    <select class="form-control form-control-rounded" id="basic-select" data-ng-model="taomoihoadon.ID_trang_thai" name="trangthai" data-ng-options="data.ID_trang_thai as data.Ten_trang_thai for data in DanhMucTrangThaii" data-ng-required="required">
                                         <option selected="" value="" disabled="">Vui Lòng Chọn Tình Trạng Hóa Đơn</option>
                                     </select>
                                 </div>
                             </div>
+
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+                                <button class="btn btn-primary" data-ng-click="Taomoikhnoval()">Tạo mới</button>
+
+                            </div>
+
+                        </form>
                     </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
-                        <button type="button" class="btn btn-primary" data-ng-click="TaoMoiHD()">Lưu Thay Đổi</button>
-                    </div>
-                    </form>
+
                 </div>
             </div>
         </div>
@@ -436,7 +440,7 @@
                                 <h5>Tổng số lượng sản phẩm: {{BangThongKeTotall.so_luong_now}}</h5>
                                 <h5>Tổng tiền: {{BangThongKeTotall.Tong_tien_now | currency}}</h5>
                             </div>
-                            <%--</div>--%>
+                            <!--</div>-->
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
                                 <button class="btn btn-primary" data-ng-click="CapNhatHD()">Tạo mới</button>
@@ -519,12 +523,13 @@
                                 </div>
 
                             </div>
+
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+                                <button class="btn btn-primary" data-ng-click="TaoMoiCTHD()">Tạo mới</button>
+                            </div>
+                        </form>
                     </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
-                        <button class="btn btn-primary" data-ng-click="TaoMoiCTHD()">Tạo mới</button>
-                    </div>
-                    </form>
                 </div>
             </div>
         </div>

@@ -20,7 +20,7 @@ namespace QLBH_Carina_API
 
         protected void gui_Click(object sender, EventArgs e)
         {
-            string conn = @"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Users\ducni\OneDrive\Desktop\QLBH_Carina_API\Database\DB_QLBH.mdb"; // chuỗi để kết nối tới sql 
+            string conn = @"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Users\ducni\OneDrive\Desktop\viewvi\Database\DB_QLBH.mdb"; // chuỗi để kết nối tới sql 
             OleDbConnection ketnoi = new OleDbConnection(conn); // thực thi kết nối
             ketnoi.Open();
             string query = "SELECT * FROM Nhan_vien WHERE Ten_dang_nhap = '" + txtusername.Text + "' AND Mat_khau = '" + txtpassword.Text + "';";

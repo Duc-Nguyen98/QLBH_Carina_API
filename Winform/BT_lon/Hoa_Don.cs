@@ -1,14 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Drawing;
-using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using System.Data.OleDb;
 using System.Configuration;
+using System.Data;
+using System.Data.OleDb;
+using System.Windows.Forms;
 
 namespace BT_lon
 {
@@ -35,7 +29,7 @@ namespace BT_lon
         {
             Gethoadon();
         }
-       
+
 
         private void xem_tat_ca_Click(object sender, EventArgs e)
         {

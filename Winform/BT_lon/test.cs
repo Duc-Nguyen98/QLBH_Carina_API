@@ -1,20 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Data.OleDb;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Diagnostics;
 
 namespace BT_lon
 {
     public partial class test : Form
     {
-     
+
         public test()
         {
             InitializeComponent();
@@ -22,18 +13,18 @@ namespace BT_lon
 
         private void test_Load(object sender, EventArgs e)
         {
-          
+
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-           
+
         }
 
         private void bao_tri_Click(object sender, EventArgs e)
         {
             //Process.Start("QLBH_Carina_API/Table_khach_hang.aspx");
-            System.Diagnostics.Process.Start("chrome.exe", "https://localhost:44360/login.aspx");  
+            System.Diagnostics.Process.Start("chrome.exe", "https://localhost:44360/login.aspx");
         }
 
     }

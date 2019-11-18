@@ -1,13 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Diagnostics;
 
 
 namespace BT_lon
@@ -94,7 +87,7 @@ namespace BT_lon
             chuyen_dong.Height = btn_8.Height;
             chuyen_dong.Top = btn_8.Top;
             huong_Su_Dung1.BringToFront();
-           
+
         }
 
         private void logout_Click(object sender, EventArgs e)
@@ -107,7 +100,7 @@ namespace BT_lon
                 Login_form ss = new Login_form();
                 ss.Show();
             }
-           
+
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -124,7 +117,7 @@ namespace BT_lon
 
         private void button1_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("chrome.exe", "https://www.facebook.com/messages/t/2420616157977380");  
+            System.Diagnostics.Process.Start("chrome.exe", "https://www.facebook.com/messages/t/2420616157977380");
         }
 
         private void link_facebook_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -144,13 +137,13 @@ namespace BT_lon
 
         private void button2_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("chrome.exe", "https://github.com/Duc-Nguyen98/QLBH_Carina_API"); 
+            System.Diagnostics.Process.Start("chrome.exe", "https://github.com/Duc-Nguyen98/QLBH_Carina_API");
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
 
-            System.Diagnostics.Process.Start("chrome.exe", " https://app.slack.com/client/TM9TCR1GX/CM81YN93J/details/pins"); 
+            System.Diagnostics.Process.Start("chrome.exe", " https://app.slack.com/client/TM9TCR1GX/CM81YN93J/details/pins");
         }
 
     }

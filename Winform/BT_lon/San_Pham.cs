@@ -1,14 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Drawing;
-using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using System.Data.OleDb;
 using System.Configuration;
+using System.Data;
+using System.Data.OleDb;
+using System.Windows.Forms;
 
 namespace BT_lon
 {
@@ -178,7 +172,7 @@ namespace BT_lon
 
         private void btn_NV_Them_Click(object sender, EventArgs e)
         {
-            Them_SP themsanpham =new Them_SP();
+            Them_SP themsanpham = new Them_SP();
             themsanpham.ShowDialog();
         }
 

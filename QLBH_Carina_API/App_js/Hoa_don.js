@@ -20,25 +20,22 @@
 
     });
 
-
     // tao moi hóa đơn  chua sử dụng validate
     $scope.Taomoikhnoval = function () {
-        var hd = $scope.taomoihoadon.ID_khach_hang;
         swal({
             title: "Bạn chắc chứ?",
-            text: "Bạn muốn tạo mới hóa đơn" + " " + hd + "!",
+            text: "Bạn muốn tạo mới hóa đơn!",
             icon: "info",
             buttons: true,
             dangerMode: true,
         }).then((willCreateNew) => {
-            var hd = $scope.taomoihoadon.ID_hoa_don;
             if (willCreateNew) {
-                swal("Thành công!", "Bạn đã tạo mới thành công hóa đơn" + " " + kh1 + "!", {
+                swal("Thành công!", "Bạn đã tạo mới thành công hóa đơn!", {
                     icon: "success",
                     timer: 2000,
                 }).then(function () {
                     setTimeout(function () {
-                        $('#modal_tao_moi_khach_hang').modal('hide'); // close modal 
+                        $('.modal_hoa_don_chi_tiet').modal('hide'); // close modal 
                         $.ajax({
                             url: "api/HoaDon_ChiTiet/TaoMoiHoaDon",
                             type: "post",
@@ -70,71 +67,11 @@
                 });
             }
             else {
-                var kh1 = $scope.taomoihoadon.ID_hoa_don;
-                swal("Thất bại", "Bạn đã hủy tạo mới hóa đơn" + " " + kh1 + "!", "error");
+                swal("Thất bại", "Bạn đã hủy tạo mới hóa đơn!", "error");
             }
         });
     }
 
-    // tạo mới hóa đơn gọi đến angular khách hàng + hàm validate 
-    $scope.TaoMoiHD = function () {
-        $("#personal-create-info").validate({
-            rules: {
-                khachhang: {
-                    required: true,
-
-                },
-                nhanvien: {
-                    required: true,
-
-
-                },
-                diachi: {
-                    required: true,
-
-                },
-                phuongthuc: {
-                    required: true,
-
-                },
-                hoadon: {
-                    required: true,
-                    maxlength: 50
-
-                },
-
-            },
-            messages: {
-
-                khachhang: {
-                    required: "Bạn hãy chọn khách hàng",
-
-                },
-                nhanvien: {
-                    required: "Bạn chọn nhân viên",
-
-                },
-                diachi: {
-                    required: "Bạn vui lòng điền địa chỉ",
-
-
-                },
-                phuongthuc: {
-                    required: "Bạn vui lòng chọn phương thức thanh toán",
-
-                },
-                hoadon: {
-                    required: "Bạn vui lòng chọn tình trạng hóa đơn",
-
-                },
-            },
-            submitHandler: function (form) {
-
-                $scope.Taomoikhnoval();
-
-            }
-        })
-    }
 
     // xóa hoadon
     $scope.XoaHoaDon = function (item) {
@@ -192,8 +129,6 @@
             }
         });
     }
-
-
 
     // cập nhật sản phẩm  chua sử dụng validate
     $scope.Capnhatspnoval = function () {
@@ -262,9 +197,6 @@
                     required: true,
 
                 },
-
-
-
             },
             messages: {
 
@@ -272,27 +204,13 @@
                     required: "Vui lòng điền địa chỉ giao hàng",
 
                 },
-
-
-
-
-
-
             },
             submitHandler: function (form) {
 
                 $scope.Capnhatspnoval();
-
             }
         })
     }
-
-
-
-
-
-
-
 
     //lay danh muc nhan vien 
     $.ajax({
@@ -312,7 +230,6 @@
     });
 
     //lay danh muc phuong thuc
-
     $.ajax({
         url: 'api/HoaDon_ChiTiet/DanhMucPhuongThuc',
         type: "GET",
@@ -468,9 +385,6 @@
         return responsive;
     }
 
-
-
-
     // Lấy thông tin hóa đơn
     $scope.LayThongTinHoaDon = function (item) {
         $scope.item = {}
@@ -484,13 +398,9 @@
     //<----------Hết Xử lý phần hóa đơn ------------>
 
     //<----------Xử lý phần chi tiết hóa đơn + sweet ------------>
-    // tao moi chi tiet hoa don
 
+    // tao moi chi tiet hoa don  chua sử dụng validate
 
-
-
-
-    // tao moi sản phẩm  chua sử dụng validate
     $scope.Taomoispnoval = function () {
         var hd3 = $scope.item.ID_hoa_don;
         swal({
@@ -575,8 +485,6 @@
 
 
                 },
-
-
             },
             messages: {
 
@@ -588,11 +496,6 @@
                     required: "Vui lòng điền số lượng sản phẩm",
 
                 },
-
-
-
-
-
             },
             submitHandler: function (form) {
 
@@ -601,12 +504,6 @@
             }
         })
     }
-
-
-
-
-
-
 
     // câp nhật chi tiết hóa đơn
     $scope.CapNhatCTHD = function () {
