@@ -3,13 +3,37 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <!--Data Tables -->
+    <link href="assets/plugins/bootstrap-datatable/css/dataTables.bootstrap4.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/plugins/bootstrap-datatable/css/buttons.bootstrap4.min.css" rel="stylesheet" type="text/css">
+
+    <!--Data Tables js-->
+    <script src="assets/plugins/bootstrap-datatable/js/jquery.dataTables.min.js"></script>
+    <script src="assets/plugins/bootstrap-datatable/js/dataTables.bootstrap4.min.js"></script>
+    <script src="assets/plugins/bootstrap-datatable/js/dataTables.buttons.min.js"></script>
+    <script src="assets/plugins/bootstrap-datatable/js/buttons.bootstrap4.min.js"></script>
+    <script src="assets/plugins/bootstrap-datatable/js/jszip.min.js"></script>
+    <script src="assets/plugins/bootstrap-datatable/js/pdfmake.min.js"></script>
+    <script src="assets/plugins/bootstrap-datatable/js/vfs_fonts.js"></script>
+    <script src="assets/plugins/bootstrap-datatable/js/buttons.html5.min.js"></script>
+    <script src="assets/plugins/bootstrap-datatable/js/buttons.print.min.js"></script>
+    <script src="assets/plugins/bootstrap-datatable/js/buttons.colVis.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            //Default data table
+            $('.default-datatable').DataTable();
+
+        });
+    </script>
     <script src="assets/js/datepicker.min.js"></script>
     <script>
         $(function () {
             $(".datepicker").datepicker({
                 dateFormat: 'dd/mm/yy'
             });
+
         });
+
     </script>
     <script src="App_js/Khach_hang.js"></script>
 
@@ -90,10 +114,12 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="card">
-                    <div class="card-header"><i class="fa fa-table"></i>Data Exporting</div>
+                    <div class="card-header"><i class="fa fa-table"></i>Xuất dữ liệu bảng khách hàng</div>
+                    
                     <div class="card-body">
                         <div class="table-responsive">
                             <table id="example" class="table table-bordered">
+
                                 <thead>
                                     <tr>
                                         <th>Mã Khách Hàng</th>
@@ -170,7 +196,7 @@
                             <div class="row">
                                 <div class="col-sm-6">
                                     <label for="input-2">Họ</label>
-                                    <input type="text" class="form-control form-control-rounded col-12"  autocomplete="off" name="firtname" placeholder="Ví dụ: Tiến Lý" data-ng-model="taomoikhachhang.Ho" data-ng-required="required" maxlength="30">
+                                    <input type="text" class="form-control form-control-rounded col-12" autocomplete="off" name="firtname" placeholder="Ví dụ: Tiến Lý" data-ng-model="taomoikhachhang.Ho" data-ng-required="required" maxlength="30">
                                 </div>
 
                                 <div class="col-sm-6">
@@ -203,7 +229,7 @@
                             <div class="row">
                                 <div class="col-sm-12">
                                     <label for="input-5">Địa Chỉ</label>
-                                    <input type="text" class="form-control form-control-rounded col-12" name="addess1" autocomplete="off"  maxlength="100" placeholder="Ví dụ: Số 9 Nguyễn Văn Huyên , Cầu Giấy , Hà Nội" data-ng-model="taomoikhachhang.Dia_chi" data-ng-required="required" maxlength="60">
+                                    <input type="text" class="form-control form-control-rounded col-12" name="addess1" autocomplete="off" maxlength="100" placeholder="Ví dụ: Số 9 Nguyễn Văn Huyên , Cầu Giấy , Hà Nội" data-ng-model="taomoikhachhang.Dia_chi" data-ng-required="required" maxlength="60">
                                 </div>
                             </div>
                             <div class="modal-footer">

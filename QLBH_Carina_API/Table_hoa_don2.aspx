@@ -3,6 +3,35 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <!--Data Tables -->
+    <link href="assets/plugins/bootstrap-datatable/css/dataTables.bootstrap4.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/plugins/bootstrap-datatable/css/buttons.bootstrap4.min.css" rel="stylesheet" type="text/css">
+    <!--Data Tables js-->
+    <script src="assets/plugins/bootstrap-datatable/js/jquery.dataTables.min.js"></script>
+    <script src="assets/plugins/bootstrap-datatable/js/dataTables.bootstrap4.min.js"></script>
+    <script src="assets/plugins/bootstrap-datatable/js/dataTables.buttons.min.js"></script>
+    <script src="assets/plugins/bootstrap-datatable/js/buttons.bootstrap4.min.js"></script>
+    <script src="assets/plugins/bootstrap-datatable/js/jszip.min.js"></script>
+    <script src="assets/plugins/bootstrap-datatable/js/pdfmake.min.js"></script>
+    <script src="assets/plugins/bootstrap-datatable/js/vfs_fonts.js"></script>
+    <script src="assets/plugins/bootstrap-datatable/js/buttons.html5.min.js"></script>
+    <script src="assets/plugins/bootstrap-datatable/js/buttons.print.min.js"></script>
+    <script src="assets/plugins/bootstrap-datatable/js/buttons.colVis.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            //Default data table
+            $('#default-datatable').DataTable();
+
+
+            var table = $('#table-hoadon').DataTable({
+                lengthChange: false,
+                buttons: ['copy', 'excel', 'pdf', 'print', 'colvis']
+            });
+
+            table.buttons().container()
+                .appendTo('#example_wrapper .col-md-6:eq(0)');
+        });
+    </script>
     <script src="App_js/Hoa_don.js"></script>
     <div data-ng-controller="mycontroller">
         <!-- view hoa don  -->
@@ -22,7 +51,7 @@
                     </div>
                     <div class="card-body">
                         <div class="table-responsive">
-                            <table id="" class="table table-bordered">
+                            <table id="default-datatable" class="table table-bordered">
                                 <thead>
                                     <tr>
                                         <th>Mã Hóa Đơn</th>
@@ -83,7 +112,7 @@
                         <div class="card-header"><i class="fa fa-table"></i>Data Exporting</div>
                         <div class="card-body">
                             <div class="table-responsive">
-                                <table id="" class="table table-bordered">
+                                <table id="table-hoadon" class="table table-bordered">
                                     <thead>
                                         <tr>
                                             <th>Mã Hóa Đơn</th>
@@ -198,7 +227,7 @@
 
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
-                                <button class="btn btn-primary" data-ng-click="Taomoikhnoval()">Tạo mới</button>
+                                <button type="button" class="btn btn-primary" data-ng-click="Taomoikhnoval()">Tạo mới</button>
 
                             </div>
 

@@ -35,6 +35,8 @@
     <script src="assets/plugins/bootstrap-datatable/js/dataTables.buttons.min.js"></script>
     <script src="assets/plugins/bootstrap-datatable/js/datatables.dataRender.js"></script>
 
+
+
     <script src="App_js/Thong_ke.js"></script>
     <div data-ng-controller="mycontroller">
         <div data-ng-repeat="BangThongKe in BangThongKee">
