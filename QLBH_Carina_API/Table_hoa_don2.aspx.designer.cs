@@ -13,12 +13,12 @@ namespace QLBH_Carina_API {
     public partial class Table_hoa_don2 {
         
         /// <summary>
-        /// Sendmail control.
+        /// ID_hoa_don_mail control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton Sendmail;
+        protected global::System.Web.UI.WebControls.TextBox ID_hoa_don_mail;
     }
 }

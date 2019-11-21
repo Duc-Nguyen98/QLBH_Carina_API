@@ -38,7 +38,6 @@
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.txt_DT = new System.Windows.Forms.TextBox();
             this.txt_DC = new System.Windows.Forms.TextBox();
-            this.txt_QQ = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.txt2 = new System.Windows.Forms.TextBox();
@@ -55,6 +54,7 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
             this.btn_thoat = new System.Windows.Forms.Button();
+            this.txt_QQ = new System.Windows.Forms.ComboBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.icon2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_icon1)).BeginInit();
@@ -78,6 +78,7 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.txt_QQ);
             this.panel1.Controls.Add(this.label9);
             this.panel1.Controls.Add(this.label8);
             this.panel1.Controls.Add(this.label7);
@@ -85,7 +86,6 @@
             this.panel1.Controls.Add(this.dateTimePicker1);
             this.panel1.Controls.Add(this.txt_DT);
             this.panel1.Controls.Add(this.txt_DC);
-            this.panel1.Controls.Add(this.txt_QQ);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label6);
             this.panel1.Controls.Add(this.txt2);
@@ -165,15 +165,6 @@
             this.txt_DC.Name = "txt_DC";
             this.txt_DC.Size = new System.Drawing.Size(382, 31);
             this.txt_DC.TabIndex = 27;
-            // 
-            // txt_QQ
-            // 
-            this.txt_QQ.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_QQ.Location = new System.Drawing.Point(231, 160);
-            this.txt_QQ.Multiline = true;
-            this.txt_QQ.Name = "txt_QQ";
-            this.txt_QQ.Size = new System.Drawing.Size(211, 31);
-            this.txt_QQ.TabIndex = 26;
             // 
             // label3
             // 
@@ -351,6 +342,81 @@
             this.btn_thoat.UseVisualStyleBackColor = true;
             this.btn_thoat.Click += new System.EventHandler(this.btn_thoat_Click);
             // 
+            // txt_QQ
+            // 
+            this.txt_QQ.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.txt_QQ.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_QQ.FormattingEnabled = true;
+            this.txt_QQ.Items.AddRange(new object[] {
+            "Cần Thơ",
+            "Đà Nẵng",
+            "Hải Phòng",
+            "Hồ Chí Minh",
+            "Hà Nội",
+            "An Giang",
+            "Bà Rịa-Vũng Tàu",
+            "Bạc Liêu",
+            "Bắc Kạn",
+            "Bắc Giang",
+            "Bắc Ninh",
+            "Bến Tre",
+            "Bình Dương",
+            "Bình Định",
+            "Bình Phước",
+            "Bình Thuận",
+            "Cà Mau",
+            "Cao Bằng",
+            "Đắk Lắk",
+            "Đắk Nông",
+            "Điện Biên",
+            "Đồng Nai",
+            "Đồng Tháp",
+            "Gia Lai",
+            "Hà Giang",
+            "Hà Nam",
+            "Hà Tây",
+            "Hà Tĩnh",
+            "Hải Dương",
+            "Hòa Bình",
+            "Hậu Giang",
+            "Hưng Yên",
+            "Khánh Hòa",
+            "Kiên Giang",
+            "Kon Tum",
+            "Lai Châu",
+            "Lào Cai",
+            "Lạng Sơn",
+            "Lâm Đồng",
+            "Long An",
+            "Nam Định",
+            "Nghệ An",
+            "Ninh Bình",
+            "Ninh Thuận",
+            "Phú Thọ",
+            "Phú Yên",
+            "Quảng Bình",
+            "Quảng Nam",
+            "Quảng Ngãi",
+            "Quảng Ninh",
+            "Quảng Trị",
+            "Sóc Trăng",
+            "Sơn La",
+            "Tây Ninh",
+            "Thái Bình",
+            "Thái Nguyên",
+            "Thanh Hóa",
+            "Thừa Thiên - Huế",
+            "Tiền Giang",
+            "Trà Vinh",
+            "Tuyên Quang",
+            "Vĩnh Long",
+            "Vĩnh Phúc",
+            "Yên Bái"});
+            this.txt_QQ.Location = new System.Drawing.Point(234, 160);
+            this.txt_QQ.Name = "txt_QQ";
+            this.txt_QQ.Size = new System.Drawing.Size(208, 31);
+            this.txt_QQ.TabIndex = 164;
+            // 
             // Cap_nhat_MK
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -399,11 +465,11 @@
         private System.Windows.Forms.Button btn_thoat;
         private System.Windows.Forms.TextBox txt_DT;
         private System.Windows.Forms.TextBox txt_DC;
-        private System.Windows.Forms.TextBox txt_QQ;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.ComboBox txt_QQ;
     }
 }

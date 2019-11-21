@@ -1,8 +1,14 @@
 ﻿using System;
-using System.Configuration;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Drawing;
 using System.Data;
-using System.Data.OleDb;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.OleDb;
+using System.Configuration;
 
 namespace BT_lon
 {
@@ -23,7 +29,7 @@ namespace BT_lon
             OleDbConnection con = new OleDbConnection();
             con.ConnectionString = ConfigurationManager.ConnectionStrings["baitaplon"].ToString();
             con.Open();
-            OleDbDataAdapter ad = new OleDbDataAdapter("SELECT Nhan_vien.ID_nhan_vien, Phan_quyen.Ten_quyen, Nhan_vien.Ho, Nhan_vien.Ten, Nhan_vien.Ngay_sinh, Nhan_vien.Que_quan, Nhan_vien.Trang_thai_lam_viec, Nhan_vien.Dia_chi, Nhan_vien.Dien_thoai, Nhan_vien.Ten_dang_nhap, Nhan_vien.Mat_khau, Nhan_vien.Ngay_tao, Nhan_vien.Ngay_cap_nhat FROM Phan_quyen INNER JOIN Nhan_vien ON Phan_quyen.ID_quyen = Nhan_vien.ID_quyen", con);
+            OleDbDataAdapter ad = new OleDbDataAdapter("SELECT Nhan_vien.ID_nhan_vien, Phan_quyen.Ten_quyen, Nhan_vien.Ho, Nhan_vien.Ten, Nhan_vien.Ngay_sinh, Nhan_vien.Que_quan, Nhan_vien.Trang_thai_lam_viec, Nhan_vien.Dia_chi, Nhan_vien.Dien_thoai, Nhan_vien.Ngay_tao, Nhan_vien.Ngay_cap_nhat FROM Phan_quyen INNER JOIN Nhan_vien ON Phan_quyen.ID_quyen = Nhan_vien.ID_quyen", con);
             DataTable tb = new DataTable();
             ad.Fill(tb);
             for (int i = 0; i < tb.Rows.Count; i++)
@@ -31,12 +37,12 @@ namespace BT_lon
                 String sdt = tb.Rows[i]["Dien_thoai"].ToString();
             }
             view_nhan_vien.DataSource = tb;
+            view_nhan_vien.Sort(this.view_nhan_vien.Columns["Ngay_tao"], ListSortDirection.Ascending);
             con.Close();
         }
 
         private void Nhan_Vien_Load(object sender, EventArgs e)
         {
-
             GetNhanvien();
             ngaycapnhat.Enabled = false;
         }
@@ -46,11 +52,12 @@ namespace BT_lon
             OleDbConnection con = new OleDbConnection();
             con.ConnectionString = ConfigurationManager.ConnectionStrings["baitaplon"].ToString();
             con.Open();
-            String sql = "SELECT Nhan_vien.ID_nhan_vien, Phan_quyen.Ten_quyen, Nhan_vien.Ho, Nhan_vien.Ten, Nhan_vien.Ngay_sinh, Nhan_vien.Que_quan, Nhan_vien.Trang_thai_lam_viec, Nhan_vien.Dia_chi, Nhan_vien.Dien_thoai, Nhan_vien.Ten_dang_nhap, Nhan_vien.Mat_khau, Nhan_vien.Ngay_tao, Nhan_vien.Ngay_cap_nhat FROM Phan_quyen INNER JOIN Nhan_vien ON Phan_quyen.ID_quyen = Nhan_vien.ID_quyen WHERE Nhan_vien.ID_nhan_vien LIKE '%" + TK.Text + "%' OR Nhan_vien.Ho LIKE '%" + TK.Text + "%' OR Nhan_vien.Ten LIKE '%" + TK.Text + "%' OR Nhan_vien.Ngay_sinh LIKE '%" + TK.Text + "%' OR Nhan_vien.Que_quan LIKE '%" + TK.Text + "%' OR Nhan_vien.Trang_thai_lam_viec LIKE '%" + TK.Text + "%' OR Nhan_vien.Dia_chi LIKE '%" + TK.Text + "%' OR Nhan_vien.Dien_thoai LIKE '%" + TK.Text + "%' OR Phan_quyen.Ten_quyen LIKE '%" + TK.Text + "%' OR Nhan_vien.Ten_dang_nhap LIKE '%" + TK.Text + "%' OR Nhan_vien.Ngay_tao LIKE '%" + TK.Text + "%' OR Nhan_vien.Ngay_cap_nhat LIKE '%" + TK.Text + "%'";
+            String sql = "SELECT Nhan_vien.ID_nhan_vien, Phan_quyen.Ten_quyen, Nhan_vien.Ho, Nhan_vien.Ten, Nhan_vien.Ngay_sinh, Nhan_vien.Que_quan, Nhan_vien.Trang_thai_lam_viec, Nhan_vien.Dia_chi, Nhan_vien.Dien_thoai, Nhan_vien.Ngay_tao, Nhan_vien.Ngay_cap_nhat FROM Phan_quyen INNER JOIN Nhan_vien ON Phan_quyen.ID_quyen = Nhan_vien.ID_quyen WHERE Nhan_vien.ID_nhan_vien LIKE '%" + TK.Text + "%' OR Nhan_vien.Ho LIKE '%" + TK.Text + "%' OR Nhan_vien.Ten LIKE '%" + TK.Text + "%' OR Nhan_vien.Ngay_sinh LIKE '%" + TK.Text + "%' OR Nhan_vien.Que_quan LIKE '%" + TK.Text + "%' OR Nhan_vien.Trang_thai_lam_viec LIKE '%" + TK.Text + "%' OR Nhan_vien.Dia_chi LIKE '%" + TK.Text + "%' OR Nhan_vien.Dien_thoai LIKE '%" + TK.Text + "%' OR Phan_quyen.Ten_quyen LIKE '%" + TK.Text + "%' OR Nhan_vien.Ten_dang_nhap LIKE '%" + TK.Text + "%' OR Nhan_vien.Ngay_tao LIKE '%" + TK.Text + "%' OR Nhan_vien.Ngay_cap_nhat LIKE '%" + TK.Text + "%'";
             OleDbDataAdapter ad = new OleDbDataAdapter(sql, con);
             DataTable tb = new DataTable();
             ad.Fill(tb);
             view_nhan_vien.DataSource = tb;
+            view_nhan_vien.Sort(this.view_nhan_vien.Columns["Ngay_tao"], ListSortDirection.Ascending);
             con.Close();
         }
 
@@ -95,10 +102,11 @@ namespace BT_lon
             OleDbConnection con = new OleDbConnection();
             con.ConnectionString = ConfigurationManager.ConnectionStrings["baitaplon"].ToString();
             con.Open();
-            OleDbDataAdapter ad = new OleDbDataAdapter("SELECT Nhan_vien.ID_nhan_vien, Phan_quyen.Ten_quyen, Nhan_vien.Ho, Nhan_vien.Ten, Nhan_vien.Ngay_sinh, Nhan_vien.Que_quan, Nhan_vien.Trang_thai_lam_viec, Nhan_vien.Dia_chi, Nhan_vien.Dien_thoai, Nhan_vien.Ten_dang_nhap, Nhan_vien.Mat_khau, Nhan_vien.Ngay_tao, Nhan_vien.Ngay_cap_nhat FROM Phan_quyen INNER JOIN Nhan_vien ON Phan_quyen.ID_quyen = Nhan_vien.ID_quyen", con);
+            OleDbDataAdapter ad = new OleDbDataAdapter("SELECT Nhan_vien.ID_nhan_vien, Phan_quyen.Ten_quyen, Nhan_vien.Ho, Nhan_vien.Ten, Nhan_vien.Ngay_sinh, Nhan_vien.Que_quan, Nhan_vien.Trang_thai_lam_viec, Nhan_vien.Dia_chi, Nhan_vien.Dien_thoai, Nhan_vien.Ngay_tao, Nhan_vien.Ngay_cap_nhat FROM Phan_quyen INNER JOIN Nhan_vien ON Phan_quyen.ID_quyen = Nhan_vien.ID_quyen", con);
             DataTable tb = new DataTable();
             ad.Fill(tb);
             view_nhan_vien.DataSource = tb;
+            view_nhan_vien.Sort(this.view_nhan_vien.Columns["Ngay_tao"], ListSortDirection.Ascending);
             con.Close();
         }
 
@@ -107,7 +115,7 @@ namespace BT_lon
             OleDbConnection con = new OleDbConnection();
             con.ConnectionString = ConfigurationManager.ConnectionStrings["baitaplon"].ToString();
             con.Open();
-            string sql = string.Format("SELECT Nhan_vien.ID_nhan_vien, Phan_quyen.Ten_quyen, Nhan_vien.Ho, Nhan_vien.Ten, Nhan_vien.Ngay_sinh, Nhan_vien.Que_quan, Nhan_vien.Trang_thai_lam_viec, Nhan_vien.Dia_chi, Nhan_vien.Dien_thoai, Nhan_vien.Ten_dang_nhap, Nhan_vien.Mat_khau, Nhan_vien.Ngay_tao, Nhan_vien.Ngay_cap_nhat FROM Phan_quyen INNER JOIN Nhan_vien ON Phan_quyen.ID_quyen = Nhan_vien.ID_quyen WHERE ID_nhan_vien ='{0}'", view_nhan_vien.Rows[e.RowIndex].Cells[0].Value);
+            string sql = string.Format("SELECT Nhan_vien.ID_nhan_vien, Phan_quyen.Ten_quyen, Nhan_vien.Ho, Nhan_vien.Ten, Nhan_vien.Ngay_sinh, Nhan_vien.Que_quan, Nhan_vien.Trang_thai_lam_viec, Nhan_vien.Dia_chi, Nhan_vien.Dien_thoai, Nhan_vien.Ngay_tao, Nhan_vien.Ngay_cap_nhat FROM Phan_quyen INNER JOIN Nhan_vien ON Phan_quyen.ID_quyen = Nhan_vien.ID_quyen WHERE ID_nhan_vien ='{0}'", view_nhan_vien.Rows[e.RowIndex].Cells[0].Value);
             OleDbDataAdapter ad = new OleDbDataAdapter(sql, con);
             DataTable tb = new DataTable();
             ad.Fill(tb);
@@ -117,31 +125,33 @@ namespace BT_lon
             if (tb.Rows[0]["Ten_quyen"].ToString().Equals("Quản lý"))
             {
                 quanly.Checked = true;
+                quanly_CheckedChanged(sender, e);
             }
             else if (tb.Rows[0]["Ten_quyen"].ToString().Equals("Nhân viên"))
             {
                 nhanvien.Checked = true;
+                nhanvien_CheckedChanged(sender, e);
             }
 
             ho.Text = tb.Rows[0]["Ho"].ToString();
             tenn.Text = tb.Rows[0]["Ten"].ToString();
             ngaysinh.Text = tb.Rows[0]["Ngay_sinh"].ToString();
-            quequan.Text = tb.Rows[0]["Que_quan"].ToString();
+            thanhpho.Text = tb.Rows[0]["Que_quan"].ToString();
 
             if (tb.Rows[0]["Trang_thai_lam_viec"].ToString().Equals("Đang Làm Việc"))
             {
                 danglamviec.Checked = true;
+                danglamviec_CheckedChanged(sender, e);
+
             }
             else if (tb.Rows[0]["Trang_thai_lam_viec"].ToString().Equals("Nghỉ Việc"))
             {
                 nghiviec.Checked = true;
+                nghiviec_CheckedChanged(sender, e);
             }
-
 
             diachi.Text = tb.Rows[0]["Dia_chi"].ToString();
             sodienthoai.Text = tb.Rows[0]["Dien_thoai"].ToString();
-            tendangnhap.Text = tb.Rows[0]["Ten_dang_nhap"].ToString();
-            matkhau.Text = tb.Rows[0]["Mat_khau"].ToString();
             con.Close();
 
         }
@@ -180,7 +190,7 @@ namespace BT_lon
 
         private void btn_NV_Xoa_Click_1(object sender, EventArgs e)
         {
-            if ((ho.Text == "") && (tenn.Text == "") && (quequan.Text == "") && (diachi.Text == "") && (sodienthoai.Text == "") && (tendangnhap.Text == "") && (matkhau.Text == ""))
+            if ((ho.Text == "") && (tenn.Text == "") && (thanhpho.Text == "") && (diachi.Text == "") && (sodienthoai.Text == ""))
             {
                 MessageBox.Show("không có dữ liệu được chọn mời chọn lại !!!");
                 return;
@@ -199,13 +209,13 @@ namespace BT_lon
 
         private void btn_NV_Luu_Click(object sender, EventArgs e)
         {
-            if (ho.Text == "" || tenn.Text == "" || quequan.Text == "" || diachi.Text == "" || sodienthoai.Text == "" || tendangnhap.Text == "" || matkhau.Text == "") MessageBox.Show("Vui lòng điền đầy đủ thông tin!");
+            if (phanquyen == string.Empty || ho.Text == "" || tenn.Text == "" || thanhpho.Text == "" || trangthailamviec == string.Empty || diachi.Text == "" || sodienthoai.Text == "") MessageBox.Show("Vui lòng điền đầy đủ thông tin!");
             else
             {
                 OleDbConnection con = new OleDbConnection();
                 con.ConnectionString = ConfigurationManager.ConnectionStrings["baitaplon"].ToString();
                 con.Open();
-                string sql = string.Format("UPDATE Nhan_vien set ID_quyen ='" + phanquyen + "', Ho ='" + ho.Text + "', Ten ='" + tenn.Text + "', Ngay_sinh ='" + ngaysinh.Text + "', Que_quan ='" + quequan.Text + "',Trang_thai_lam_viec ='" + trangthailamviec + "',Dia_chi ='" + diachi.Text + "',Dien_thoai ='" + sodienthoai.Text + "', Ten_dang_nhap ='" + tendangnhap.Text + "', Mat_khau ='" + matkhau.Text + "', Ngay_cap_nhat ='" + ngaycapnhat.Text + "'WHERE ID_nhan_vien ='" + id.Text + "'");
+                string sql = string.Format("UPDATE Nhan_vien set ID_quyen ='" + phanquyen + "', Ho ='" + ho.Text + "', Ten ='" + tenn.Text + "', Ngay_sinh ='" + ngaysinh.Text + "', Que_quan ='" + thanhpho.Text + "',Trang_thai_lam_viec ='" + trangthailamviec + "',Dia_chi ='" + diachi.Text + "',Dien_thoai ='" + sodienthoai.Text + "', Ngay_cap_nhat ='" + ngaycapnhat.Text + "'WHERE ID_nhan_vien ='" + id.Text + "'");
                 OleDbCommand cmd = new OleDbCommand(sql, con);
                 cmd.ExecuteNonQuery();
                 MessageBox.Show("Thông tin trong bảng nhân viên đã được sửa thành công.");

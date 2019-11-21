@@ -17,20 +17,22 @@
     <script src="assets/plugins/bootstrap-datatable/js/buttons.html5.min.js"></script>
     <script src="assets/plugins/bootstrap-datatable/js/buttons.print.min.js"></script>
     <script src="assets/plugins/bootstrap-datatable/js/buttons.colVis.min.js"></script>
+    <style>
+        .input_for_mail{
+            border: none!important;
+            background: transparent!important;
+            width: 50%!important;
+            display: inline-flex!important;
+            font-size: 1em!important;
+        }
+    </style>
     <script>
-        $(document).ready(function () {
-            //Default data table
-            $('#default-datatable').DataTable();
-
-
-            var table = $('#table-hoadon').DataTable({
-                lengthChange: false,
-                buttons: ['copy', 'excel', 'pdf', 'print', 'colvis']
-            });
-
-            table.buttons().container()
-                .appendTo('#example_wrapper .col-md-6:eq(0)');
-        });
+        $(document).ready(function () { $("#default-datatable").DataTable({ language: { sProcessing: "Đang xử lý...", sLengthMenu: "Xem _MENU_ mục", sZeroRecords: "Không tìm thấy dòng nào phù hợp", sInfo: "Đang xem _START_ đến _END_ trong tổng số _TOTAL_ mục", sInfoEmpty: "Đang xem 0 đến 0 trong tổng số 0 mục", sInfoFiltered: "(được lọc từ _MAX_ mục)", sInfoPostFix: "", sSearch: "Tìm:", sUrl: "", oPaginate: { sFirst: "Đầu", sPrevious: "Trước", sNext: "Tiếp", sLast: "Cuối" } } }), $("#example").DataTable({ language: { sProcessing: "Đang xử lý...", sLengthMenu: "Xem MENU mục", sZeroRecords: "Không tìm thấy dòng nào phù hợp", sInfo: "Đang xem  _START_ đến _END_ trong tổng số _TOTAL_ mục", sInfoEmpty: "Đang xem 0 đến 0 trong tổng số 0 mục", sInfoFiltered: "(được lọc từ _MAX_ mục)", sInfoPostFix: "", sSearch: "Tìm:", sUrl: "", oPaginate: { sFirst: "Đầu", sPrevious: "Trước", sNext: "Tiếp", sLast: "Cuối" } }, lengthChange: !1, buttons: ["copy", "excel", "pdf", "print", "colvis"] }).buttons().container().appendTo("#example_wrapper .col-md-6:eq(0)") });
+    </script>
+    <script>
+        function sendmail() {
+            swal("Thành Công!", "Đã gửi yêu cầu thanh toán qua mail của khách hàng.", "success")
+        }
     </script>
     <script src="App_js/Hoa_don.js"></script>
     <div data-ng-controller="mycontroller">
@@ -44,9 +46,7 @@
                         </div>
                         <div class="col-6 float-right text-right">
                             <!-- Button Modal Hoa Don & Chi tiet -->
-                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".modal_hoa_don_chi_tiet" data-ng-click="item={}">
-                                Modal Hóa Đơn và Chi Tiết
-                            </button>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".modal_hoa_don_chi_tiet" data-ng-click="item={}"><i class="fas fa-plus-circle"></i> Tạo Mới</button>
                         </div>
                     </div>
                     <div class="card-body">
@@ -109,10 +109,10 @@
             <div class="col-lg-12">
                 <div class="col-lg-12">
                     <div class="card">
-                        <div class="card-header"><i class="fa fa-table"></i>Data Exporting</div>
+                        <div class="card-header"><i class="fa fa-table"></i> Data Exporting</div>
                         <div class="card-body">
                             <div class="table-responsive">
-                                <table id="table-hoadon" class="table table-bordered">
+                                <table id="example" class="table table-bordered">
                                     <thead>
                                         <tr>
                                             <th>Mã Hóa Đơn</th>
@@ -258,9 +258,10 @@
 
                                     <div class="row mt-3">
                                         <div class="col-lg-6">
-                                            <h5>Mã Hóa Đơn - 
-                                            <small>{{item.ID_hoa_don}}</small>
-                                            </h5>
+<%--                                            <h5>Mã Hóa Đơn - <input type="text" class="form-control form-control-rounded col-12 read-only" style="border: none;background: transparent;" readonly  data-ng-model="item.ID_hoa_don">  </h5>--%>
+                                           <h5> Mã Hóa Đơn - <asp:TextBox ID="ID_hoa_don_mail" class="form-control form-control-rounded col-12 read-only input_for_mail" runat="server" ReadOnly="true"  data-ng-model="item.ID_hoa_don"></asp:TextBox> </h5>
+          <%--                                  <small>{{item.ID_hoa_don}}</small>--%>
+                                          
                                         </div>
                                         <div class="col-lg-6">
                                             <h5 class="float-sm-right">Ngày Tạo: <small>{{item.Ngay_tao  | date : format : "dd.MM.y" }}</small></h5>
@@ -275,7 +276,7 @@
                                                 <p><strong>Địa Chỉ Nhận Hàng:</strong>{{item.Dia_chi_giao_hang}} </p>
                                                 <p><strong>Số Điện Thoại:</strong> {{item.Dien_thoai}}</p>
                                                 <p><strong>Địa Chỉ Email:</strong> {{item.Email}} </p>
-                                                <p><strong>Phương thức:</strong> {{item.ID_phuong_thuc}} </p>
+                                                <p><strong>Tên Phương thức:</strong> {{item.Ten_phuong_thuc}} </p>
                                                 <p><strong>Trạng Thái:</strong> {{item.Ten_trang_thai}} </p>
                                             </address>
                                         </div>
@@ -354,11 +355,10 @@
                                 </div>
                                 <div class="col-lg-9">
                                     <div class="float-sm-right">
-                                        <asp:LinkButton ID="Sendmail" CssClass="btn btn-success m-1" OnClick="SendMail_Click" runat="server"><i class="fa fa-credit-card"></i>Gửi Yêu Cầu Thanh Toán</asp:LinkButton>
+                                        <%--<asp:LinkButton ID="Sendmail" CssClass="btn btn-success m-1" OnClick="SendMail_Click" runat="server"><i class="fa fa-credit-card"></i>Gửi Yêu Cầu Thanh Toán</asp:LinkButton>--%>
+                                        <button Class="btn btn-success m-1" type="button" data-ng-click="GuiYeuCauThanhToan()"><i class="fa fa-credit-card"></i>Gửi Yêu Cầu Thanh Toán</button>
                                     </div>
                                 </div>
-                            </div>
-
                             <!-- /.content -->
                         </div>
                     </div>
@@ -472,7 +472,7 @@
                             <!--</div>-->
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
-                                <button class="btn btn-primary" data-ng-click="CapNhatHD()">Tạo mới</button>
+                                <button class="btn btn-primary" data-ng-click="CapNhatHD()">Lưu Thay Đổi</button>
                             </div>
                         </form>
                     </div>
@@ -517,8 +517,8 @@
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary" data-ng-click="CapNhatCTHD()">Lưu changes</button>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Thoát</button>
+                        <button type="button" class="btn btn-primary" data-ng-click="CapNhatCTHD()">Lưu Thay Đổi</button>
                     </div>
                 </div>
             </div>
@@ -575,5 +575,6 @@
             })
         }
     </script>
+        </div>
     <%--End mycontroller--%>
 </asp:Content>

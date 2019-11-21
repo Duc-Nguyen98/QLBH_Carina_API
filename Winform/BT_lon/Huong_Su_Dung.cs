@@ -1,4 +1,11 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Drawing;
+using System.Data;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace BT_lon
@@ -12,7 +19,8 @@ namespace BT_lon
 
         private void btn_trangchu_Click(object sender, EventArgs e)
         {
-
+            HDSD_Cap_Nhat_Mat_Khau show = new HDSD_Cap_Nhat_Mat_Khau();
+            show.ShowDialog();
         }
 
         private void btn_san_pham_Click(object sender, EventArgs e)

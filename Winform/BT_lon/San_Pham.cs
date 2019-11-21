@@ -1,8 +1,14 @@
 ﻿using System;
-using System.Configuration;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Drawing;
 using System.Data;
-using System.Data.OleDb;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.OleDb;
+using System.Configuration;
 
 namespace BT_lon
 {
@@ -21,6 +27,7 @@ namespace BT_lon
             DataTable tb = new DataTable();
             ad.Fill(tb);
             view_san_pham.DataSource = tb;
+            view_san_pham.Sort(this.view_san_pham.Columns["Ngay_tao"], ListSortDirection.Ascending);
             con.Close();
         }
         private void San_Pham_Load(object sender, EventArgs e)
@@ -60,6 +67,7 @@ namespace BT_lon
             DataTable tb = new DataTable();
             ad.Fill(tb);
             view_san_pham.DataSource = tb;
+            view_san_pham.Sort(this.view_san_pham.Columns["Ngay_tao"], ListSortDirection.Ascending);
             con.Close();
         }
 
@@ -172,7 +180,7 @@ namespace BT_lon
 
         private void btn_NV_Them_Click(object sender, EventArgs e)
         {
-            Them_SP themsanpham = new Them_SP();
+            Them_SP themsanpham =new Them_SP();
             themsanpham.ShowDialog();
         }
 
@@ -186,6 +194,7 @@ namespace BT_lon
             DataTable tb = new DataTable();
             ad.Fill(tb);
             view_san_pham.DataSource = tb;
+            view_san_pham.Sort(this.view_san_pham.Columns["Ngay_tao"], ListSortDirection.Ascending);
             con.Close();
         }
     }

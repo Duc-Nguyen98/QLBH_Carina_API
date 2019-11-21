@@ -1,7 +1,13 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
 using System.Configuration;
 using System.Data;
 using System.Data.OleDb;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace BT_lon
@@ -26,7 +32,6 @@ namespace BT_lon
             tennhacungcap.ValueMember = "ID_nha_cung_cap";
             tennhacungcap.DisplayMember = "Ten_nha_cung_cap";
             tennhacungcap.DataSource = tb;
-
             OleDbDataAdapter add = new OleDbDataAdapter("SELECT Phan_loai.ID_phan_loai,Ten_phan_loai FROM Phan_loai", con);
             DataTable tbb = new DataTable();
             add.Fill(tbb);
@@ -89,12 +94,18 @@ namespace BT_lon
             OleDbConnection con = new OleDbConnection();
             con.ConnectionString = ConfigurationManager.ConnectionStrings["baitaplon"].ToString();
             con.Open();
-            OleDbDataAdapter oda = new OleDbDataAdapter("select top 1 * from Mat_hang ORDER BY Mat_hang.ID_mat_hang DESC", con);
+            OleDbDataAdapter oda = new OleDbDataAdapter("select * from Mat_hang", con);
             DataTable tb = new DataTable();
             oda.Fill(tb);
+            int max = -100000;
+            for (int i = 0; i < tb.Rows.Count; i++)
+            {
+                int ma = int.Parse(tb.Rows[i]["ID_mat_hang"].ToString().Substring(3, tb.Rows[i]["ID_mat_hang"].ToString().Length - 3)) + 1;
+                if (ma > max) max = ma;
+            }
             con.Close();
-            int ma = int.Parse(tb.Rows[0]["ID_mat_hang"].ToString().Substring(3, tb.Rows[0]["ID_mat_hang"].ToString().Length - 3)) + 1;
-            mats = mats + ma.ToString();
+
+            mats = mats + max.ToString();
             mamahang.Text = mats;
         }
 

@@ -3,12 +3,16 @@ using System;
 using System.Data;
 using System.Web;
 using System.Web.Http;
+using System.Net;
+using System.Net.Mail;
 
 namespace QLBH_Carina_API.Controllers
 {
     public class HoaDon_ChiTietController : ApiController
     {
         Data_provider data_ = new Data_provider();
+
+        public object ID_hoa_don_mail { get; private set; }
 
         //<---------- Xử lý phần hóa đơn ------------>
 
@@ -282,6 +286,18 @@ namespace QLBH_Carina_API.Controllers
                 " FROM Mat_hang INNER JOIN(Hoa_don INNER JOIN Chi_tiet_hoa_don ON Hoa_don.ID_hoa_don = Chi_tiet_hoa_don.ID_hoa_don) ON Mat_hang.ID_mat_hang = Chi_tiet_hoa_don.ID_mat_hang WHERE (((Hoa_don.ID_hoa_don)='" + ID_hoa_don + "')); ");
             DataTable dt = new DataTable();
             dt = data_.Get(querry12).Tables[0];
+            if (dt.Rows[0]["So_luong_mat_hang_now"].ToString() == "")
+            {
+                dt.Rows[0]["So_luong_mat_hang_now"] = "0";
+            }
+            if (dt.Rows[0]["so_luong_now"].ToString() == "")
+            {
+                dt.Rows[0]["so_luong_now"] = "0";
+            }
+            if (dt.Rows[0]["Tong_tien_now"].ToString() == "")
+            {
+                dt.Rows[0]["Tong_tien_now"] = "0";
+            }
             return dt;
         }
 
@@ -326,5 +342,42 @@ namespace QLBH_Carina_API.Controllers
 
 
         //<---------- Hết phần Chi Tiết hóa đơn ------------>
+
+        [HttpPost]
+        public DataTable SendMail()
+        {
+            string ID_hoa_don = HttpContext.Current.Request.Form["ID_hoa_don"]; // where theo id 
+            string querry12 = ("SELECT DISTINCT Hoa_don.ID_hoa_don, Hoa_don.ID_khach_hang, Hoa_don.ID_nhan_vien, Hoa_don.Dia_chi_giao_hang, (Format([Hoa_don].[Ngay_tao],'dd-mm-yyyy')) AS Ngay_tao, (Format([Hoa_don].[Ngay_cap_nhat],'dd-mm-yyyy')) AS Ngay_cap_nhat, Hoa_don.ID_trang_thai, Hoa_don.ID_phuong_thuc, (Nhan_vien.Ho+' '+Nhan_vien.Ten) AS Ten_nhan_vien, (Khach_hang.Ho+' '+Khach_hang.Ten) AS Ten_khach_hang, Puong_thuc_thanh_toan.Ten_phuong_thuc, Trang_thai.Ten_trang_thai, Khach_hang.Dien_thoai, Khach_hang.Email FROM Mat_hang INNER JOIN((Trang_thai INNER JOIN (Puong_thuc_thanh_toan INNER JOIN (Nhan_vien INNER JOIN (Khach_hang INNER JOIN Hoa_don ON Khach_hang.ID_khach_hang = Hoa_don.ID_khach_hang) ON Nhan_vien.ID_nhan_vien = Hoa_don.ID_nhan_vien) ON Puong_thuc_thanh_toan.ID_phuong_thuc = Hoa_don.ID_phuong_thuc) ON Trang_thai.ID_trang_thai = Hoa_don.ID_trang_thai) INNER JOIN Chi_tiet_hoa_don ON Hoa_don.ID_hoa_don = Chi_tiet_hoa_don.ID_hoa_don) ON Mat_hang.ID_mat_hang = Chi_tiet_hoa_don.ID_mat_hang WHERE(((Hoa_don.ID_hoa_don) = '"+ID_hoa_don+"')) ORDER BY Hoa_don.ID_hoa_don;");
+            DataTable dt = new DataTable();
+            dt = data_.Get(querry12).Tables[0];
+
+
+
+            var fromAddress = new MailAddress("banhangcarina@gmail.com", "From Name");
+            var toAddress = new MailAddress("ducnin1998@gmail.com", "To Name");
+            const string fromPassword = "carina1234";
+            const string subject = "Yêu Cầu Thanh Toán Hóa Đơn Của Carina";
+            const string body = "nooi dung mail ";
+
+            var smtp = new SmtpClient
+            {
+                Host = "smtp.gmail.com",
+                Port = 587,
+                EnableSsl = true,
+                DeliveryMethod = SmtpDeliveryMethod.Network,
+                UseDefaultCredentials = false,
+                Credentials = new NetworkCredential(fromAddress.Address, fromPassword)
+            };
+            using (var message = new MailMessage(fromAddress, toAddress)
+            {
+                Subject = subject,
+                Body = body
+            })
+            {
+                smtp.Send(message);
+            }
+            return dt;
+        }
+
     }
 }

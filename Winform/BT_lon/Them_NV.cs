@@ -1,7 +1,13 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
 using System.Configuration;
 using System.Data;
 using System.Data.OleDb;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace BT_lon
@@ -24,7 +30,7 @@ namespace BT_lon
         private void btn_NV_Luu_Click(object sender, EventArgs e)
         {
 
-            if (phanquen != "" && t3.Text != "" && t4.Text != "" && dateTimePicker1.Text != "" && t6.Text != "" && radio_button != "" && t7.Text != "" && t8.Text != "" && t9.Text != "" && t10.Text != "")
+            if (phanquen != "" && t3.Text != "" && t4.Text != "" && dateTimePicker1.Text != "" && thanhpho.Text != "" && radio_button != "" && t7.Text != "" && t8.Text != "" && t9.Text != "" && t10.Text != "")
             {
                 OleDbConnection con = new OleDbConnection();
                 con.ConnectionString = ConfigurationManager.ConnectionStrings["baitaplon"].ToString();
@@ -36,7 +42,7 @@ namespace BT_lon
                 cmd.Parameters.Add(new OleDbParameter("@Ho", t3.Text));
                 cmd.Parameters.Add(new OleDbParameter("@Ten", t4.Text));
                 cmd.Parameters.Add(new OleDbParameter("@Ngay_sinh", dateTimePicker1.Text));
-                cmd.Parameters.Add(new OleDbParameter("@Que_quan", t6.Text));
+                cmd.Parameters.Add(new OleDbParameter("@Que_quan", thanhpho.Text));
                 cmd.Parameters.Add(new OleDbParameter("@Trang_thai_lam_viec", radio_button));
                 cmd.Parameters.Add(new OleDbParameter("@Dia_chi", t7.Text));
                 cmd.Parameters.Add(new OleDbParameter("@Dien_thoai", t8.Text));
@@ -100,7 +106,7 @@ namespace BT_lon
             //radio_button = "";
             t3.Text = "";
             t4.Text = "";
-            t6.Text = "";
+            thanhpho.Text = "";
             //phanquen = "";
             t7.Text = "";
             t8.Text = "";

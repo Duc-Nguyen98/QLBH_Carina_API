@@ -1,9 +1,15 @@
 ﻿using System;
-using System.Configuration;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Drawing;
 using System.Data;
-using System.Data.OleDb;
-using System.Text.RegularExpressions;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.OleDb;
+using System.Configuration;
+using System.Text.RegularExpressions;
 
 namespace BT_lon
 {
@@ -27,6 +33,7 @@ namespace BT_lon
                 String sdt = tb.Rows[i]["Dien_thoai"].ToString();
             }
             view_nha_cung_cap.DataSource = tb;
+            view_nha_cung_cap.Sort(this.view_nha_cung_cap.Columns["Ngay_tao"], ListSortDirection.Ascending);
             con.Close();
         }
 
@@ -84,6 +91,7 @@ namespace BT_lon
             DataTable tb = new DataTable();
             ad.Fill(tb);
             view_nha_cung_cap.DataSource = tb;
+            view_nha_cung_cap.Sort(this.view_nha_cung_cap.Columns["Ngay_tao"], ListSortDirection.Ascending);
             con.Close();
         }
 
@@ -174,6 +182,25 @@ namespace BT_lon
             DataTable tb = new DataTable();
             ad.Fill(tb);
             view_nha_cung_cap.DataSource = tb;
+            view_nha_cung_cap.Sort(this.view_nha_cung_cap.Columns["Ngay_tao"], ListSortDirection.Ascending);
+            con.Close();
+        }
+
+        private void view_nha_cung_cap_rowenter(object sender, DataGridViewCellEventArgs e)
+        {
+            OleDbConnection con = new OleDbConnection();
+            con.ConnectionString = ConfigurationManager.ConnectionStrings["baitaplon"].ToString();
+            con.Open();
+            string sql = string.Format("SELECT * FROM Nha_cung_cap WHERE ID_nha_cung_cap ='{0}'", view_nha_cung_cap.Rows[e.RowIndex].Cells[0].Value);
+            OleDbDataAdapter ad = new OleDbDataAdapter(sql, con);
+            DataTable tb = new DataTable();
+            ad.Fill(tb);
+            idnhacungcap.Text = tb.Rows[0]["ID_nha_cung_cap"].ToString();
+            idnhacungcap.Enabled = false;
+            diachi.Text = tb.Rows[0]["Dia_chi"].ToString();
+            tennhacungcap.Text = tb.Rows[0]["Ten_nha_cung_cap"].ToString();
+            gmaill.Text = tb.Rows[0]["Email"].ToString();
+            sodienthoai.Text = tb.Rows[0]["Dien_thoai"].ToString();
             con.Close();
         }
 

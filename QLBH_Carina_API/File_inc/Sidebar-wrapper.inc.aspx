@@ -2,7 +2,7 @@
 
 <div id="sidebar-wrapper" data-simplebar="" data-simplebar-auto-hide="true">
 	<div class="brand-logo">
-		<a href="../home.aspx">
+		<a href="../home2.aspx">
 			<h4 class="logo-text" style="font-size:x-large;">Quản Lý Carina</h4>
 		</a>
 	</div>
@@ -13,7 +13,7 @@
 	</div>
 	<ul class="sidebar-menu do-nicescrol">
 		<li>
-			<a href="../home.aspx" class="waves-effect ">
+			<a href="../home2.aspx" class="waves-effect ">
 				<i class="zmdi zmdi-view-dashboard"></i> <span>Trang Chủ</span>
 			</a>
 		</li>

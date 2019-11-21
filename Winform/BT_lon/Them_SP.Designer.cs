@@ -41,11 +41,11 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.soluong = new System.Windows.Forms.TextBox();
-            this.donvitinh = new System.Windows.Forms.TextBox();
             this.giaban = new System.Windows.Forms.TextBox();
             this.them = new System.Windows.Forms.Button();
             this.btn_NV_Thoai = new System.Windows.Forms.Button();
             this.btn_NV_Luu = new System.Windows.Forms.Button();
+            this.donvitinh = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // mamahang
@@ -173,15 +173,6 @@
             this.soluong.TabIndex = 151;
             this.soluong.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.soluong_keypress);
             // 
-            // donvitinh
-            // 
-            this.donvitinh.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.donvitinh.Location = new System.Drawing.Point(223, 292);
-            this.donvitinh.Multiline = true;
-            this.donvitinh.Name = "donvitinh";
-            this.donvitinh.Size = new System.Drawing.Size(218, 29);
-            this.donvitinh.TabIndex = 152;
-            // 
             // giaban
             // 
             this.giaban.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -246,17 +237,40 @@
             this.btn_NV_Luu.UseVisualStyleBackColor = false;
             this.btn_NV_Luu.Click += new System.EventHandler(this.btn_NV_Luu_Click_1);
             // 
+            // donvitinh
+            // 
+            this.donvitinh.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.donvitinh.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.donvitinh.FormattingEnabled = true;
+            this.donvitinh.Items.AddRange(new object[] {
+            "Cái",
+            "Chai",
+            "Chiếc",
+            "Cuốn",
+            "Đôi",
+            "Kg",
+            "Lọ",
+            "Tập",
+            "Thỏi",
+            "Thùng",
+            "Túi",
+            "Sản Phẩm"});
+            this.donvitinh.Location = new System.Drawing.Point(223, 291);
+            this.donvitinh.Name = "donvitinh";
+            this.donvitinh.Size = new System.Drawing.Size(218, 31);
+            this.donvitinh.TabIndex = 160;
+            // 
             // Them_SP
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLight;
             this.ClientSize = new System.Drawing.Size(935, 398);
+            this.Controls.Add(this.donvitinh);
             this.Controls.Add(this.them);
             this.Controls.Add(this.btn_NV_Thoai);
             this.Controls.Add(this.btn_NV_Luu);
             this.Controls.Add(this.giaban);
-            this.Controls.Add(this.donvitinh);
             this.Controls.Add(this.soluong);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -295,10 +309,10 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox soluong;
-        private System.Windows.Forms.TextBox donvitinh;
         private System.Windows.Forms.TextBox giaban;
         private System.Windows.Forms.Button them;
         private System.Windows.Forms.Button btn_NV_Thoai;
         private System.Windows.Forms.Button btn_NV_Luu;
+        private System.Windows.Forms.ComboBox donvitinh;
     }
 }

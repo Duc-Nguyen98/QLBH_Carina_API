@@ -385,15 +385,7 @@
         return responsive;
     }
 
-    // Lấy thông tin hóa đơn
-    $scope.LayThongTinHoaDon = function (item) {
-        $scope.item = {}
-        angular.copy(item, $scope.item)
-        LayCTHD();
-        LayTKTotal();
-        LayINHD();
 
-    }
 
     //<----------Hết Xử lý phần hóa đơn ------------>
 
@@ -690,5 +682,32 @@
     }
     //<----------Hết Xử lý phần chi tiết hóa đơn ------------>
 
+    // Lấy thông tin hóa đơn
+    $scope.LayThongTinHoaDon = function (item) {
+        $scope.item = {}
+        angular.copy(item, $scope.item)
+        LayCTHD();
+        LayTKTotal();
+        LayINHD();
 
+    }
+    // send mail 
+
+    $scope.GuiYeuCauThanhToan =  function SendMail() {
+        var responsive;
+        $.ajax({
+            url: 'api/HoaDon_ChiTiet/SendMail',
+            type: "Post",
+            data: value = { "ID_hoa_don": $scope.item.ID_hoa_don },
+            dataType: 'json',
+            async: false,
+            success: function (data) {
+                responsive = data;
+            },
+            error: function (data) {
+                alert('error connectings server' + data);
+            }
+        });
+        return responsive;
+    }
 });

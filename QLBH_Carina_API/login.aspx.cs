@@ -39,7 +39,8 @@ namespace QLBH_Carina_API
 
             else
             {
-                Response.Write("Bạn đã nhập sai tên đăng nhập hoặc mật khẩu !");
+                //Response.Write("Bạn đã nhập sai tên đăng nhập hoặc mật khẩu !");
+                WrongUser.Text = "Bạn đã nhập sai tên đăng nhập hoặc mật khẩu !";
             }
         }
 

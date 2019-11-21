@@ -240,6 +240,7 @@
             this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox14.TabIndex = 115;
             this.pictureBox14.TabStop = false;
+            this.pictureBox14.Click += new System.EventHandler(this.pictureBox14_Click);
             // 
             // pictureBox3
             // 
@@ -285,6 +286,7 @@
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 110;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // pictureBox21
             // 
@@ -499,7 +501,7 @@
             this.KQ_DTTTuan.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.KQ_DTTTuan.Location = new System.Drawing.Point(856, 343);
             this.KQ_DTTTuan.Name = "KQ_DTTTuan";
-            this.KQ_DTTTuan.Size = new System.Drawing.Size(69, 41);
+            this.KQ_DTTTuan.Size = new System.Drawing.Size(68, 40);
             this.KQ_DTTTuan.TabIndex = 177;
             this.KQ_DTTTuan.Text = "900";
             // 
@@ -511,7 +513,7 @@
             this.KQ_DTTThang.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.KQ_DTTThang.Location = new System.Drawing.Point(856, 459);
             this.KQ_DTTThang.Name = "KQ_DTTThang";
-            this.KQ_DTTThang.Size = new System.Drawing.Size(69, 41);
+            this.KQ_DTTThang.Size = new System.Drawing.Size(68, 40);
             this.KQ_DTTThang.TabIndex = 178;
             this.KQ_DTTThang.Text = "900";
             // 
@@ -523,7 +525,7 @@
             this.KQ_DTTNam.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.KQ_DTTNam.Location = new System.Drawing.Point(856, 579);
             this.KQ_DTTNam.Name = "KQ_DTTNam";
-            this.KQ_DTTNam.Size = new System.Drawing.Size(69, 41);
+            this.KQ_DTTNam.Size = new System.Drawing.Size(68, 40);
             this.KQ_DTTNam.TabIndex = 179;
             this.KQ_DTTNam.Text = "900";
             // 
@@ -535,7 +537,7 @@
             this.KQ_HNTThang.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.KQ_HNTThang.Location = new System.Drawing.Point(856, 710);
             this.KQ_HNTThang.Name = "KQ_HNTThang";
-            this.KQ_HNTThang.Size = new System.Drawing.Size(69, 41);
+            this.KQ_HNTThang.Size = new System.Drawing.Size(68, 40);
             this.KQ_HNTThang.TabIndex = 180;
             this.KQ_HNTThang.Text = "900";
             // 
@@ -547,7 +549,7 @@
             this.KQ_HNTNam.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.KQ_HNTNam.Location = new System.Drawing.Point(856, 825);
             this.KQ_HNTNam.Name = "KQ_HNTNam";
-            this.KQ_HNTNam.Size = new System.Drawing.Size(69, 41);
+            this.KQ_HNTNam.Size = new System.Drawing.Size(68, 40);
             this.KQ_HNTNam.TabIndex = 181;
             this.KQ_HNTNam.Text = "900";
             // 

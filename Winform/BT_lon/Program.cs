@@ -1,4 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace BT_lon
@@ -13,16 +16,16 @@ namespace BT_lon
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Login_form());
-            // Application.Run(new Form1());
+           Application.Run(new Login_form());
+       // Application.Run(new Form1());
             //Application.Run(new Cap_nhat_MK());
-            // Application.Run(new Them_NV());
-            // Application.Run(new Sua_nhan_vien());
-            // Application.Run(new test());
-
+         // Application.Run(new Them_NV());
+          // Application.Run(new Sua_nhan_vien());
+         // Application.Run(new test());
+          
         }
-
-
-
+           
+            
+        
     }
 }

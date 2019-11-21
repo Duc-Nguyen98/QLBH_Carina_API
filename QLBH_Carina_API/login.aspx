@@ -75,6 +75,7 @@
                                     <asp:Button ID="gui" CssClass="btn btn-light btn-block waves-effect waves-light" runat="server" Text="Đăng Nhập Carina" OnClick="gui_Click" />
                                 </div>
                             </form>
+                            <asp:Label ID="WrongUser" runat="server" Text=""></asp:Label>
                         </div>
                     </div>
                 </div>

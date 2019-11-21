@@ -1,8 +1,14 @@
 ﻿using System;
-using System.Configuration;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Drawing;
 using System.Data;
-using System.Data.OleDb;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.OleDb;
+using System.Configuration;
 
 namespace BT_lon
 {
@@ -37,6 +43,16 @@ namespace BT_lon
             KQ_HNTThang.Text = dt.Rows[0]["So_luong_hang_nhap_theo_thang"].ToString();
             KQ_HNTNam.Text = dt.Rows[0]["So_luong_hang_nhap_theo_nam"].ToString();
             con.Close();
+        }
+
+        private void pictureBox14_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

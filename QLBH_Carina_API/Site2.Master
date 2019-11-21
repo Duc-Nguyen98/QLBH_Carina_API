@@ -48,10 +48,13 @@
     <script src="App_js/app-nv.js"></script>
     <script src="assets/js/datepicker.min.js"></script>
     <style type="text/css">
-        body {
+         body {
             font-family: 'Roboto Slab',serif !important
         }
-
+        .ui-datepicker-week-end span {
+            text-align: center;
+            padding: 0.3em 0.5em;
+        }
         .default-datatable-truncate {
             text-overflow: Ellipsis;
             width: 135px;
@@ -59,38 +62,36 @@
             white-space: nowrap;
             display: block
         }
-
         .form-control.form-control-rounded.read-only {
             border: 0 solid #e5eaef;
             background-color: rgba(255,255,255,.2);
             color: #fff !important
         }
-
         .ui-datepicker-header.ui-widget-header.ui-helper-clearfix.ui-corner-all {
             text-align: center;
-            background: #2bbbad;
+            background: #000;
             width: 310px
         }
-
         table.ui-datepicker-calendar {
-            background: #2bbbad !important;
+            background: #000 !important;
             color: #fff;
             width: 310px;
             font-family: tahoma
         }
-
         a.ui-state-default {
             color: #ffff;
             display: block;
             transition: .3s;
-            font-weight: 700
+            font-weight: 700;
+            padding: 0.3em 0.5em;
+            border-radius: 43% !important;
+            text-align: center;
         }
-
         a.ui-state-default:hover {
-            color: #2bbbad;
+            color: #000;
             background: #fff
+          
         }
-
         span.ui-icon.ui-icon-circle-triangle-e {
             float: right;
             font-size: 20px;
@@ -100,11 +101,10 @@
             transition: .3s;
             font-weight: 700
         }
-
             span.ui-icon.ui-icon-circle-triangle-e:hover {
-                color: #fff
+                color: #fff;
+                  border-radius: 60% !important;
             }
-
         span.ui-icon.ui-icon-circle-triangle-w {
             float: left;
             font-size: 20px;
@@ -114,11 +114,9 @@
             transition: .3s;
             font-weight: 700
         }
-
         span.ui-icon.ui-icon-circle-triangle-w:hover {
             color: #fff
         }
-
         .ui-datepicker-title {
             padding: 15px 0;
             text-align: center;
@@ -130,7 +128,6 @@
             position: absolute;
             top: 7.5em
         }
-
         .dis {
             display: none
         }

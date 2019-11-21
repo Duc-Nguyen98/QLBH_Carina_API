@@ -37,7 +37,7 @@ namespace QLBH_Carina_API.Controllers
                 string Dia_chi = HttpContext.Current.Request.Form["Dia_chi"];
                 string Email = HttpContext.Current.Request.Form["Email"];
                 string Dien_thoai = HttpContext.Current.Request.Form["Dien_thoai"];
-                string querry2 = "INSERT INTO Khach_hang (ID_khach_hang, Ho, Ten, Ngay_sinh, Que_quan, Dia_chi, Email,  Dien_thoai)VALUES ('" + ID_khach_hang + "', '" + Ho + "','" + Ten + "','" + Ngay_sinh + "' , '" + Dia_chi + "', '" + Que_quan + "', '" + Email + "', '" + Dien_thoai + "')";
+                string querry2 = "INSERT INTO Khach_hang (ID_khach_hang, Ho, Ten, Ngay_sinh, Que_quan, Dia_chi, Email,  Dien_thoai)VALUES ('" + ID_khach_hang + "', '" + Ho + "','" + Ten + "','" + Ngay_sinh + "' , '" + Que_quan + "', '"  +Dia_chi + "', '" + Email + "', '" + Dien_thoai + "')";
                 Boolean check = data_.ExeCuteNonQuery(querry2);
                 if (check)
                 {

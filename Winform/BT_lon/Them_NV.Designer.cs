@@ -41,7 +41,6 @@
             this.rbtn1 = new System.Windows.Forms.RadioButton();
             this.t8 = new System.Windows.Forms.TextBox();
             this.t7 = new System.Windows.Forms.TextBox();
-            this.t6 = new System.Windows.Forms.TextBox();
             this.t4 = new System.Windows.Forms.TextBox();
             this.t3 = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
@@ -58,6 +57,7 @@
             this.chung = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.them = new System.Windows.Forms.Button();
+            this.thanhpho = new System.Windows.Forms.ComboBox();
             this.chung.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -200,15 +200,6 @@
             this.t7.Name = "t7";
             this.t7.Size = new System.Drawing.Size(357, 29);
             this.t7.TabIndex = 86;
-            // 
-            // t6
-            // 
-            this.t6.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.t6.Location = new System.Drawing.Point(267, 268);
-            this.t6.Multiline = true;
-            this.t6.Name = "t6";
-            this.t6.Size = new System.Drawing.Size(218, 29);
-            this.t6.TabIndex = 85;
             // 
             // t4
             // 
@@ -378,12 +369,88 @@
             this.them.UseVisualStyleBackColor = false;
             this.them.Click += new System.EventHandler(this.them_Click);
             // 
+            // thanhpho
+            // 
+            this.thanhpho.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.thanhpho.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.thanhpho.FormattingEnabled = true;
+            this.thanhpho.Items.AddRange(new object[] {
+            "Cần Thơ",
+            "Đà Nẵng",
+            "Hải Phòng",
+            "Hồ Chí Minh",
+            "Hà Nội",
+            "An Giang",
+            "Bà Rịa-Vũng Tàu",
+            "Bạc Liêu",
+            "Bắc Kạn",
+            "Bắc Giang",
+            "Bắc Ninh",
+            "Bến Tre",
+            "Bình Dương",
+            "Bình Định",
+            "Bình Phước",
+            "Bình Thuận",
+            "Cà Mau",
+            "Cao Bằng",
+            "Đắk Lắk",
+            "Đắk Nông",
+            "Điện Biên",
+            "Đồng Nai",
+            "Đồng Tháp",
+            "Gia Lai",
+            "Hà Giang",
+            "Hà Nam",
+            "Hà Tây",
+            "Hà Tĩnh",
+            "Hải Dương",
+            "Hòa Bình",
+            "Hậu Giang",
+            "Hưng Yên",
+            "Khánh Hòa",
+            "Kiên Giang",
+            "Kon Tum",
+            "Lai Châu",
+            "Lào Cai",
+            "Lạng Sơn",
+            "Lâm Đồng",
+            "Long An",
+            "Nam Định",
+            "Nghệ An",
+            "Ninh Bình",
+            "Ninh Thuận",
+            "Phú Thọ",
+            "Phú Yên",
+            "Quảng Bình",
+            "Quảng Nam",
+            "Quảng Ngãi",
+            "Quảng Ninh",
+            "Quảng Trị",
+            "Sóc Trăng",
+            "Sơn La",
+            "Tây Ninh",
+            "Thái Bình",
+            "Thái Nguyên",
+            "Thanh Hóa",
+            "Thừa Thiên - Huế",
+            "Tiền Giang",
+            "Trà Vinh",
+            "Tuyên Quang",
+            "Vĩnh Long",
+            "Vĩnh Phúc",
+            "Yên Bái"});
+            this.thanhpho.Location = new System.Drawing.Point(267, 268);
+            this.thanhpho.Name = "thanhpho";
+            this.thanhpho.Size = new System.Drawing.Size(218, 31);
+            this.thanhpho.TabIndex = 164;
+            // 
             // Them_NV
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLight;
             this.ClientSize = new System.Drawing.Size(851, 574);
+            this.Controls.Add(this.thanhpho);
             this.Controls.Add(this.them);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.chung);
@@ -395,7 +462,6 @@
             this.Controls.Add(this.label9);
             this.Controls.Add(this.t8);
             this.Controls.Add(this.t7);
-            this.Controls.Add(this.t6);
             this.Controls.Add(this.t4);
             this.Controls.Add(this.t3);
             this.Controls.Add(this.label8);
@@ -437,7 +503,6 @@
         private System.Windows.Forms.RadioButton rbtn1;
         private System.Windows.Forms.TextBox t8;
         private System.Windows.Forms.TextBox t7;
-        private System.Windows.Forms.TextBox t6;
         private System.Windows.Forms.TextBox t4;
         private System.Windows.Forms.TextBox t3;
         private System.Windows.Forms.Label label8;
@@ -454,5 +519,6 @@
         private System.Windows.Forms.Panel chung;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button them;
+        private System.Windows.Forms.ComboBox thanhpho;
     }
 }
